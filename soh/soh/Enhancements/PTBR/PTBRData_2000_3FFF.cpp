@@ -838,7 +838,7 @@ const PTBRMessageData kPTBRMessages_2000_3FFF[] = {
     },
     {
         0x3007,
-        R"PTBR(<SHIFT:0x50>Oh!<BOX_BREAK_DELAYED:0x1E><SHIFT:0x4B>Oh, oh!<BOX_BREAK_DELAYED:0x28><SHIFT:0x4B><QUICKTEXT_ENABLE>Vamos!<QUICKTEXT_DISABLE><BOX_BREAK_DELAYED:0x1E><SHIFT:0x14>Vamos! Vamos! <QUICKTEXT_ENABLE>Vamos!<QUICKTEXT_DISABLE><BOX_BREAK_DELAYED:0x28><SHIFT:0x50><QUICKTEXT_ENABLE>ISSO!!<QUICKTEXT_DISABLE><BOX_BREAK_DELAYED:0x1E><SHIFT:0x28>Que ritmo quente!<BOX_BREAK_DELAYED:0x28><SHIFT:0x32>UUUAAAU!<BOX_BREAK_DELAYED:0x28><SHIFT:0x3C><QUICKTEXT_ENABLE>ISSOOO!<QUICKTEXT_DISABLE><BOX_BREAK_DELAYED:0x28><SHIFT:0x3C><QUICKTEXT_ENABLE>IUUUPIII!!<QUICKTEXT_DISABLE><END>)PTBR",
+        R"PTBR(Se continuar assim, eu vou pirar!<NEWLINE>Entendeu?! É por isso que eu não tenho tempo<NEWLINE>pra lidar com pirralhos insuportáveis!<NEWLINE>Agora, deem o fora daqui!<NEWLINE>Isso! Isso! Iiisso!<NEWLINE>A batida...<NEWLINE>A batida tá fervendo!<END>)PTBR",
         0x03
     },
     {
@@ -963,7 +963,7 @@ const PTBRMessageData kPTBRMessages_2000_3FFF[] = {
     },
     {
         0x3020,
-        R"PTBR(Bem, não era bem isso<NEWLINE>que eu queria ouvir...<BOX_BREAK>Queria ouvir uma melodia...<NEWLINE>Algo... Humm... De fora<NEWLINE>das montanhas... Algo...<NEWLINE>Verde... Natural...<BOX_BREAK>É esse tipo de música<NEWLINE>que eu quero ouvir...<END>)PTBR",
+        R"PTBR(Isso!<NEWLINE>Isso! Isso! Iiisso!<NEWLINE>A batida...<NEWLINE>A batida tá fervendo!<NEWLINE>Que falta de respeito com o grande Darunia!<NEWLINE>Eu é que não vou perder meu tempo<NEWLINE>com um pirralho como tu.<NEWLINE>Bora, chispa logo daqui!<BOX_BREAK>Queria ouvir uma melodia...<NEWLINE>Algo... Humm... De fora<NEWLINE>das montanhas... Algo...<NEWLINE>Verde... Natural...<BOX_BREAK>Qual é a de Hyrule?<NEWLINE>Eles acham que um fedelho desses vai ajudar?<NEWLINE>Ei, espera aí!<NEWLINE>Você nem nos deixou explicar nada!<END>)PTBR",
         0x03
     },
     {
@@ -1103,7 +1103,7 @@ const PTBRMessageData kPTBRMessages_2000_3FFF[] = {
     },
     {
         0x303C,
-        R"PTBR(<UNSKIPPABLE>Obrigado, irmão!<NEWLINE>Sou muito grato por tudo<NEWLINE>o que fez. Agradeço em nome<NEWLINE>de todo o povo Goron!<BOX_BREAK><UNSKIPPABLE>Você se tornou um homem de verdade,<NEWLINE>exatamente como eu imaginava!<END>)PTBR",
+        R"PTBR(Valeu mesmo, irmão!<NEWLINE>Eu te agradeço em nome dos gorons.<BOX_BREAK>Nem acredito que tu acabou com o Volvágnia...<NEWLINE>Foi de molequinho a homão num piscar de olhos!<END>)PTBR",
         0x03
     },
     {
@@ -1148,12 +1148,12 @@ const PTBRMessageData kPTBRMessages_2000_3FFF[] = {
     },
     {
         0x3045,
-        R"PTBR(<UNSKIPPABLE>Aliás, eu, o impetuoso Darunia,<NEWLINE>acabei me tornando o grande<NEWLINE><COLOR:RED>Sábio do Fogo<COLOR:DEFAULT>...<BOX_BREAK><UNSKIPPABLE>Não é engraçado, irmão?<NEWLINE>Deve ser isso que chamam<NEWLINE>de destino.<BOX_BREAK><UNSKIPPABLE>Nada me deixa mais feliz<NEWLINE>do que ajudar você a selar<NEWLINE>o mal aqui!<END>)PTBR",
+        R"PTBR(E pensar que eu, Darunia,<NEWLINE>ia virar o sábio do fogo.<BOX_BREAK>Essa é pra rir, né?<NEWLINE>Diz aí, irmão!<NEWLINE>Bom, o destino falou mais alto.<BOX_BREAK>Nada vai me fazer mais feliz!<END>)PTBR",
         0x03
     },
     {
         0x3046,
-        R"PTBR(<UNSKIPPABLE>Ei, irmão, aceite isto!<NEWLINE>Este <COLOR:RED>Medalhão<COLOR:DEFAULT> contém<NEWLINE>o poder dos espíritos do fogo<NEWLINE>e a minha amizade.<END>)PTBR",
+        R"PTBR(Então...<NEWLINE>Isso é pra ti, irmão!<END>)PTBR",
         0x03
     },
     {

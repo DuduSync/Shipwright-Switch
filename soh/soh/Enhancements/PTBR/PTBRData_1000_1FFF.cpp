@@ -108,22 +108,22 @@ const PTBRMessageData kPTBRMessages_1000_1FFF[] = {
     },
     {
         0x1015,
-        R"PTBR(<UNSKIPPABLE>Ah... Navi...<NEWLINE>Você voltou...<BOX_BREAK><UNSKIPPABLE><NAME>...<NEWLINE>Bem-vindo...<BOX_BREAK><UNSKIPPABLE>Ouça com atenção o que eu,<NEWLINE>a <COLOR:RED>Árvore Deku<COLOR:DEFAULT>, tenho a lhe dizer...<BOX_BREAK><UNSKIPPABLE>Seu sono nestas últimas noites<NEWLINE>deve ter sido agitado<NEWLINE>e cheio de pesadelos...<BOX_BREAK><UNSKIPPABLE>À medida que os servos do mal<NEWLINE>se fortalecem, uma aura sombria<NEWLINE>se espalha pela terra e provoca<NEWLINE>pesadelos em quem a sente...<BOX_BREAK><UNSKIPPABLE>Sim, você a sentiu...<BOX_BREAK><UNSKIPPABLE><NAME>...<NEWLINE>Chegou a hora de pôr<NEWLINE>sua coragem à prova...<TEXTID:0x10,0x16>)PTBR",
+        R"PTBR(Confiarei tudo àquele menino.<NEWLINE>Navi!<NEWLINE>Pequena Navi, onde está você, minha querida?<NEWLINE>Ah, Navi.<BOX_BREAK><UNSKIPPABLE><NAME>...<NEWLINE>Bem-vindo...<BOX_BREAK>Estou aqui, ó Grande Árvore Deko!<NEWLINE>Se não for muito incômodo,<NEWLINE>tenho um pedido a fazer.<BOX_BREAK><UNSKIPPABLE>Seu sono nestas últimas noites<NEWLINE>deve ter sido agitado<NEWLINE>e cheio de pesadelos...<BOX_BREAK>É triste saber que logo não poderei mais proteger<NEWLINE>a floresta. Preciso garantir a segurança dela!<NEWLINE>Em que posso ajudar?<BOX_BREAK>Link! Ei, Link, acorda!<BOX_BREAK><UNSKIPPABLE><NAME>...<NEWLINE>Chegou a hora de pôr<NEWLINE>sua coragem à prova...<TEXTID:0x10,0x16><END>)PTBR",
         0x03
     },
     {
         0x1016,
-        R"PTBR(Fui <COLOR:RED>amaldiçoada<COLOR:DEFAULT>...<NEWLINE>Preciso que desfaça a maldição<NEWLINE>com sua sabedoria e coragem.<BOX_BREAK>Você tem coragem suficiente<NEWLINE>para aceitar esta missão?<NEWLINE><TWO_CHOICE><COLOR:ADJUSTABLE>Sim<NEWLINE>Não<COLOR:DEFAULT><END>)PTBR",
+        R"PTBR(Preciso falar com uma certa criança.<NEWLINE>Você poderia trazê-la até mim?<NEWLINE>A Grande Árvore Deko quer falar com você.<NEWLINE>Vamos, acorda!<BOX_BREAK>Claro! Mas quem é?<NEWLINE>É um menino... O único na floresta<NEWLINE>que não tem a companhia de uma fada.<NEWLINE>Afe... Acorda!<END>)PTBR",
         0x03
     },
     {
         0x1017,
-        R"PTBR(<UNSKIPPABLE>Então entre, valente<NEWLINE><NAME>. E você também,<NEWLINE>Navi...<BOX_BREAK><UNSKIPPABLE>Navi, a fada...<NEWLINE>Você deve ajudar <NAME>...<BOX_BREAK><UNSKIPPABLE>E você, <NAME>... Quando <COLOR:LIGHTBLUE>Navi<NEWLINE><COLOR:DEFAULT>falar, aperte <COLOR:YELLOW><BYTE:0xA5> <COLOR:DEFAULT>para ouvir<NEWLINE>suas sábias palavras...<END>)PTBR",
+        R"PTBR(Ah, finalmente acordou!<BOX_BREAK>Ele se chama Link.<NEWLINE>Certo. Vou buscá-lo, já!<NEWLINE>Eu sou a fada Navi!<BOX_BREAK>O que será que a Grande Árvore Deko quer<NEWLINE>falar com um dorminhoco desses, hein?<END>)PTBR",
         0x03
     },
     {
         0x1018,
-        R"PTBR(Talvez você ainda não confie<NEWLINE>em suas habilidades...<NEWLINE>Volte à Floresta Kokiri<NEWLINE>e aprenda a lutar...<BOX_BREAK>Quando estiver pronto, volte<NEWLINE>e fale comigo usando <COLOR:LIGHTBLUE><BYTE:0xA4><COLOR:DEFAULT>...<END>)PTBR",
+        R"PTBR(A Grande Árvore Deko pediu<NEWLINE>para eu vir aqui te buscar.<BOX_BREAK>Ele quer falar com você.<NEWLINE>Então, Link, venha comigo!<END>)PTBR",
         0x03
     },
     {
@@ -508,7 +508,7 @@ const PTBRMessageData kPTBRMessages_1000_1FFF[] = {
     },
     {
         0x1065,
-        R"PTBR(Há muito tempo, antes de o Rei<NEWLINE>de Hyrule unificar este país,<NEWLINE>uma guerra feroz assolava o mundo.<BOX_BREAK_DELAYED:0x5A>Um dia, fugindo das chamas<NEWLINE>da guerra, uma <COLOR:RED>mãe hyliana <COLOR:DEFAULT>e<NEWLINE>seu <COLOR:RED>bebê<COLOR:DEFAULT> entraram nesta<NEWLINE>floresta proibida.<BOX_BREAK_DELAYED:0x5A>A mãe estava gravemente ferida...<NEWLINE>Sua única opção era confiar<NEWLINE>a criança à <COLOR:RED>Árvore Deku<COLOR:DEFAULT>,<NEWLINE>o espírito guardião da floresta.<BOX_BREAK_DELAYED:0x5A>A Árvore Deku sentiu que<NEWLINE>aquela criança tinha um destino<NEWLINE>que afetaria o mundo inteiro,<NEWLINE>e a acolheu na floresta.<BOX_BREAK_DELAYED:0x5A>Após a morte da mãe,<NEWLINE>o bebê foi criado como um <COLOR:ADJUSTABLE>Kokiri<COLOR:DEFAULT>.<NEWLINE>E agora, finalmente, chegou<NEWLINE>o dia de cumprir seu destino!<FADE:0x5A><END>)PTBR",
+        R"PTBR(Muito tempo atrás, uma guerra terrível<NEWLINE>assolou o reino de Hyrule.<NEWLINE>Um dia, fugindo do conflito com o filho nos braços,<NEWLINE>uma hyliana buscou abrigo na Floresta Kokiri.<NEWLINE>Ferida de morte, a mãe confiou o filho<NEWLINE>à Árvore Deko, o espírito da floresta.<NEWLINE>No instante em que viu o menino,a Árvore Deko pressentiu que ele teria<NEWLINE>um grande destino e decidiu protegê-lo.<NEWLINE>Após a morte da mãe, o menino foi criado como<NEWLINE>kokiri sob o olhar atento da Árvore Deko.<END>)PTBR",
         0x21
     },
     {
@@ -533,12 +533,12 @@ const PTBRMessageData kPTBRMessages_1000_1FFF[] = {
     },
     {
         0x106A,
-        R"PTBR(<UNSKIPPABLE>Obrigada...<NEWLINE>Graças a você, pude despertar<NEWLINE>como uma Sábia...<BOX_BREAK><UNSKIPPABLE>Sou <COLOR:ADJUSTABLE>Saria<COLOR:DEFAULT>,<NEWLINE>a Sábia do Templo da Floresta...<END>)PTBR",
+        R"PTBR(E quando você chegou e derrotou aquela criatura,<NEWLINE>finalmente despertei como sábia.<NEWLINE>Obrigada, Herói do Tempo.<BOX_BREAK>Eu sou Saria,<NEWLINE>a sábia da floresta.<END>)PTBR",
         0x03
     },
     {
         0x106B,
-        R"PTBR(<UNSKIPPABLE><SHIFT:0x28>Saria será sempre...<NEWLINE><SHIFT:0x3C>sua amiga...<FADE:0x50><END>)PTBR",
+        R"PTBR(Tenho certeza, isso vai te ajudar na sua aventura.<END>)PTBR",
         0x52
     },
     {
@@ -628,7 +628,7 @@ const PTBRMessageData kPTBRMessages_1000_1FFF[] = {
     },
     {
         0x107D,
-        R"PTBR(<UNSKIPPABLE><SHIFT:0x2E><COLOR:LIGHTBLUE>Grande Árvore Deku...<NEWLINE><COLOR:DEFAULT><SHIFT:0x48><COLOR:LIGHTBLUE>Voltei!<COLOR:DEFAULT><END>)PTBR",
+        R"PTBR(Uuurgh...Eu sinto que o meu tempo...<NEWLINE>está chegando ao fim...<END>)PTBR",
         0x03
     },
     {
@@ -643,7 +643,7 @@ const PTBRMessageData kPTBRMessages_1000_1FFF[] = {
     },
     {
         0x1080,
-        R"PTBR(<QUICKTEXT_ENABLE><SHIFT:0x02>Três deusas douradas desceram<NEWLINE><SHIFT:0x04>sobre o caos que era Hyrule...<QUICKTEXT_DISABLE><FADE:0x63><END>)PTBR",
+        R"PTBR(Dizem que, em um passado muito, muito distante,<NEWLINE>seres divinos criaram um reino chamado Hyrule.<END>)PTBR",
         0x40
     },
     {
@@ -718,12 +718,12 @@ const PTBRMessageData kPTBRMessages_1000_1FFF[] = {
     },
     {
         0x108F,
-        R"PTBR(<UNSKIPPABLE>Sempre acreditei que você viria.<NEWLINE>Porque eu conheço você...<BOX_BREAK><UNSKIPPABLE>Não...<BOX_BREAK_DELAYED:0x1E><UNSKIPPABLE>Não precisa<NEWLINE>me explicar...<BOX_BREAK><UNSKIPPABLE>É nosso destino não podermos<NEWLINE>viver no mesmo mundo.<END>)PTBR",
+        R"PTBR(Obrigada, Herói do Tempo.<NEWLINE>Link... você cresceu tanto!<NEWLINE>Eu queria dizer obrigada por tudo.<NEWLINE>Saria, que bom que você está bem.<BOX_BREAK>Link, Navi...<BOX_BREAK><UNSKIPPABLE>É nosso destino não podermos<NEWLINE>viver no mesmo mundo.<END>)PTBR",
         0x03
     },
     {
         0x1090,
-        R"PTBR(<UNSKIPPABLE>Ficarei aqui como a Sábia<NEWLINE>da Floresta para ajudar você...<BOX_BREAK><UNSKIPPABLE>Agora, por favor, aceite este<NEWLINE><COLOR:ADJUSTABLE>Medalhão<COLOR:DEFAULT>...<END>)PTBR",
+        R"PTBR(Nós temos que selar o Ganondorf daqui.<NEWLINE>Essa é a missão dos sábios.<BOX_BREAK>Agora, aceite!<END>)PTBR",
         0x03
     },
     {
@@ -788,17 +788,17 @@ const PTBRMessageData kPTBRMessages_1000_1FFF[] = {
     },
     {
         0x109D,
-        R"PTBR(Às margens desse reino, havia uma pequena floresta.<BOX_BREAK_DELAYED:0x28><SHIFT:0x16>Dentro dela, uma velha árvore<NEWLINE><SHIFT:0x0C>solitária velava em silêncio<NEWLINE><SHIFT:0x0C>por todos que lá viviam.<FADE:0x46><END>)PTBR",
+        R"PTBR(Às margens desse reino,<NEWLINE>havia uma pequena floresta.<END>)PTBR",
         0x40
     },
     {
         0x109E,
-        R"PTBR(Tais habitantes eram conhecidos<NEWLINE>como kokiris.<BOX_BREAK_DELAYED:0x3C><SHIFT:0x0B>Cada kokiri tinha uma amiga fada,<NEWLINE><SHIFT:0x0B>e todos levavam uma vida simples<NEWLINE><SHIFT:0x0B>na tranquila floresta.<FADE:0x3C><END>)PTBR",
+        R"PTBR(Tais habitantes eram conhecidos como kokiris.<END>)PTBR",
         0x40
     },
     {
         0x109F,
-        R"PTBR(Contudo, entre eles havia<NEWLINE>um garoto...<NEWLINE>que não tinha uma fada.<FADE:0x3C><END>)PTBR",
+        R"PTBR(Contudo, entre eles havia um garoto...<NEWLINE>que não tinha uma fada.<END>)PTBR",
         0x40
     },
     {

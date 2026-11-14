@@ -328,7 +328,7 @@ const PTBRMessageData kPTBRMessages_4000_FFFF[] = {
     },
     {
         0x4041,
-        R"PTBR(<UNSKIPPABLE><NAME>...<BOX_BREAK><UNSKIPPABLE>Eu não esperava menos<NEWLINE>do homem que escolhi<NEWLINE>para ser meu marido.<BOX_BREAK><UNSKIPPABLE>Com o tempo, o Domínio Zora<NEWLINE>e seu povo voltarão<NEWLINE>ao normal.<END>)PTBR",
+        R"PTBR(Você é incrível, Link.<BOX_BREAK>Mas eu não esperava nada menos do meu noivo.<NEWLINE>Você lutou com maestria.<BOX_BREAK>O Território Zora voltará ao normal.<NEWLINE>E tenho uma pessoa a agradecer: você, Link.<END>)PTBR",
         0x03
     },
     {
@@ -353,12 +353,12 @@ const PTBRMessageData kPTBRMessages_4000_FFFF[] = {
     },
     {
         0x4046,
-        R"PTBR(<UNSKIPPABLE>Como recompensa...<NEWLINE>Dou a você meu amor eterno.<BOX_BREAK><UNSKIPPABLE>Bem, era o que eu queria dizer,<NEWLINE>mas acho que não posso<NEWLINE>oferecer isso agora.<END>)PTBR",
+        R"PTBR(Ah, é! E eu te devo...<NEWLINE>o meu amor eterno!<NEWLINE>Eu sou toda sua!<BOX_BREAK>Ah, quem me dera...<NEWLINE>Mas meu desejo não se realizará.<END>)PTBR",
         0x03
     },
     {
         0x4047,
-        R"PTBR(<UNSKIPPABLE>A Princesa Zelda está viva...<NEWLINE>Posso sentir. Não desanime.<END>)PTBR",
+        R"PTBR(A princesa Zelda... está viva.<NEWLINE>Meu coração me diz isso.<NEWLINE>Acredite, vocês se encontrarão.<NEWLINE>Se... você não desistir.<END>)PTBR",
         0x03
     },
     {
@@ -368,17 +368,17 @@ const PTBRMessageData kPTBRMessages_4000_FFFF[] = {
     },
     {
         0x4049,
-        R"PTBR(<UNSKIPPABLE>Preciso proteger o Templo<NEWLINE>da Água como a <COLOR:BLUE>Sábia da Água<COLOR:DEFAULT>...<BOX_BREAK><UNSKIPPABLE>E você... Está procurando<NEWLINE>a Princesa <COLOR:RED>Zelda<COLOR:DEFAULT>?<BOX_BREAK><UNSKIPPABLE>Ha!<NEWLINE>Não pode esconder nada de mim!<END>)PTBR",
+        R"PTBR(Em vez disso, eu, sábia da água, devo ficar aqui<NEWLINE>para selar o Rei Demoníaco.<BOX_BREAK>Acho que você está procurando<NEWLINE>uma princesa chamada Zelda.<BOX_BREAK>Você nem imagina as coisas que eu sei.<END>)PTBR",
         0x03
     },
     {
         0x404A,
-        R"PTBR(<UNSKIPPABLE>Sei que nada vai impedir<NEWLINE>sua busca por justiça<NEWLINE>e paz... Leve este<NEWLINE><COLOR:BLUE>Medalhão<COLOR:DEFAULT>... Aceite-o com respeito!<END>)PTBR",
+        R"PTBR(Te desejo sorte nas batalhas<NEWLINE>e tenho um presente para você.<NEWLINE>Aceite-o...<NEWLINE>e use-o com sabedoria!<END>)PTBR",
         0x03
     },
     {
         0x404B,
-        R"PTBR(<UNSKIPPABLE>Você! Quem é você?!<BOX_BREAK><UNSKIPPABLE>Sou <COLOR:RED>Ruto<COLOR:DEFAULT>, Princesa dos Zoras.<BOX_BREAK><UNSKIPPABLE><QUICKTEXT_ENABLE>O quê?!<QUICKTEXT_DISABLE><NEWLINE>Está dizendo que meu pai<NEWLINE>pediu que viesse me salvar?<BOX_BREAK><UNSKIPPABLE>Eu <QUICKTEXT_ENABLE>nunca<QUICKTEXT_DISABLE> pediria uma coisa<NEWLINE>dessas a ninguém!<BOX_BREAK><UNSKIPPABLE>"Carta num frasco"? Não tenho<NEWLINE><QUICKTEXT_ENABLE>ideia<QUICKTEXT_DISABLE> do que está falando!<BOX_BREAK><UNSKIPPABLE>Meu pai está preocupado comigo?<BOX_BREAK><UNSKIPPABLE>Não <QUICKTEXT_ENABLE>me importo!<QUICKTEXT_DISABLE><BOX_BREAK><UNSKIPPABLE>Não posso voltar para casa agora.<NEWLINE>E você... <QUICKTEXT_ENABLE>Saia daqui!<QUICKTEXT_DISABLE><NEWLINE><QUICKTEXT_ENABLE>Entendeu?!<QUICKTEXT_DISABLE><END>)PTBR",
+        R"PTBR(Com licença, mas é você a princesa zora<NEWLINE>que escreveu a carta da garrafa?<NEWLINE>Nós estamos aqui porque o rei Zora<NEWLINE>pediu que viéssemos resgatar você!<NEWLINE>É... mas...<BOX_BREAK>Sim, isso mesmo...<NEWLINE>Eu sou Ruto, a princesa zora.<BOX_BREAK>O quê?!<NEWLINE>Meu pai se preocupa demais,<NEWLINE>eu não queria que ele se envolvesse.<BOX_BREAK><UNSKIPPABLE>Eu <QUICKTEXT_ENABLE>nunca<QUICKTEXT_DISABLE> pediria uma coisa<NEWLINE>dessas a ninguém!<BOX_BREAK>Um menino e uma fada?<NEWLINE>O que estão fazendo aqui?<NEWLINE>E vocês devem ter encontrado a minha carta.<BOX_BREAK>Então vocês mostraram a carta para o meu pai?<NEWLINE>Mesmo eu tendo pedido para guardar segredo?!<BOX_BREAK>Exatamente!<BOX_BREAK><UNSKIPPABLE>Não posso voltar para casa agora.<NEWLINE>E você... <QUICKTEXT_ENABLE>Saia daqui!<QUICKTEXT_DISABLE><NEWLINE><QUICKTEXT_ENABLE>Entendeu?!<QUICKTEXT_DISABLE><END>)PTBR",
         0x03
     },
     {
@@ -398,22 +398,22 @@ const PTBRMessageData kPTBRMessages_4000_FFFF[] = {
     },
     {
         0x404F,
-        R"PTBR(<UNSKIPPABLE><QUICKTEXT_ENABLE>Ali!<QUICKTEXT_DISABLE><NEWLINE>É o que eu estava procurando!<NEWLINE>Jogue-me lá em cima,<NEWLINE>na plataforma!<END>)PTBR",
+        R"PTBR(Um menino e uma fada?<NEWLINE>O que estão fazendo aqui?<NEWLINE>Com licença, mas é você a princesa zora<NEWLINE>que escreveu a carta da garrafa?<NEWLINE>Sim, isso mesmo...<NEWLINE>Eu sou Ruto, a princesa zora.<END>)PTBR",
         0x03
     },
     {
         0x4050,
-        R"PTBR(<UNSKIPPABLE><QUICKTEXT_ENABLE>A Princesa Ruto pegou a<NEWLINE><COLOR:BLUE>Pedra Espiritual<COLOR:DEFAULT>!<QUICKTEXT_DISABLE><NEWLINE><TEXT_SPEED:0x02>Mas<TEXT_SPEED:0x00> por que a Princesa Ruto?<END>)PTBR",
+        R"PTBR(Um menino e uma fada?<NEWLINE>O que estão fazendo aqui?<NEWLINE>Com licença, mas é você a princesa zora<NEWLINE>que escreveu a carta da garrafa?<NEWLINE>Sim, isso mesmo...<NEWLINE>Eu sou Ruto, a princesa zora.<END>)PTBR",
         0x23
     },
     {
         0x4051,
-        R"PTBR(<UNSKIPPABLE>Minha nossa!<NEWLINE>Finalmente encontrei...<NEWLINE>A pedra da minha mãe...<BOX_BREAK><UNSKIPPABLE>Fiquei tão chateada quando<NEWLINE>o Lorde Jabu-Jabu a engoliu...<BOX_BREAK><UNSKIPPABLE>Eu estava dando comida a ele<NEWLINE>quando me engoliu de repente!<NEWLINE>Levei um susto e a deixei cair...<BOX_BREAK><UNSKIPPABLE>Mas agora que a encontrei,<NEWLINE>não preciso mais<NEWLINE>ficar aqui!<END>)PTBR",
+        R"PTBR(E vocês devem ter encontrado a minha carta.<NEWLINE>Exatamente!<NEWLINE>Eu vou para casa em breve. E nem se atrevam<NEWLINE>a contar do nosso encontro para o meu pai!<BOX_BREAK><UNSKIPPABLE>Fiquei tão chateada quando<NEWLINE>o Lorde Jabu-Jabu a engoliu...<BOX_BREAK><UNSKIPPABLE>Eu estava dando comida a ele<NEWLINE>quando me engoliu de repente!<NEWLINE>Levei um susto e a deixei cair...<BOX_BREAK>Nós estamos aqui porque o rei Zora<NEWLINE>pediu que viéssemos resgatar você!<NEWLINE>O quê?!<NEWLINE>Então vocês mostraram a carta para o meu pai?<NEWLINE>Mesmo eu tendo pedido para guardar segredo?!<NEWLINE>É... mas...<NEWLINE>Meu pai se preocupa demais,<NEWLINE>eu não queria que ele se envolvesse.<NEWLINE>Para piorar, não é nem um zora que dá as caras,<NEWLINE>é só um menino qualquer.<END>)PTBR",
         0x03
     },
     {
         0x4052,
-        R"PTBR(Então, me leve para casa, agora!<END>)PTBR",
+        R"PTBR(Agora, podem ir. Ainda há algo<NEWLINE>que preciso encontrar aqui.<NEWLINE>Ouviram? Vão embora de uma vez!<END>)PTBR",
         0x03
     },
     {
@@ -1073,12 +1073,12 @@ const PTBRMessageData kPTBRMessages_4000_FFFF[] = {
     },
     {
         0x5022,
-        R"PTBR(<UNSKIPPABLE>O garoto com a ocarina<NEWLINE>da nobre Zelda... Como eu<NEWLINE>esperava, você veio.<BOX_BREAK><UNSKIPPABLE>Sou <COLOR:RED>Impa<COLOR:DEFAULT>, uma Sheikah.<NEWLINE>Sou a protetora da Princesa Zelda<NEWLINE>e a Sábia que guarda<NEWLINE>o Templo das Sombras.<END>)PTBR",
+        R"PTBR(Há quanto tempo, bravo rapaz.<BOX_BREAK>Não... Agora você é o Herói do Tempo, não é?<END>)PTBR",
         0x03
     },
     {
         0x5023,
-        R"PTBR(<UNSKIPPABLE>Por favor, cuide da princesa!<FADE:0x32><END>)PTBR",
+        R"PTBR(Infelizmente, eu já não posso mais cumprir o meu<NEWLINE>dever de sheikah: proteger Hyrule e a família real.<END>)PTBR",
         0x52
     },
     {
@@ -1088,12 +1088,12 @@ const PTBRMessageData kPTBRMessages_4000_FFFF[] = {
     },
     {
         0x5025,
-        R"PTBR(<UNSKIPPABLE>Nós, Sheikah, servimos<NEWLINE>à realeza de Hyrule<NEWLINE>há muitas gerações.<NEWLINE>Porém...<BOX_BREAK><UNSKIPPABLE>Naquele dia, há sete anos,<NEWLINE>Ganondorf atacou de surpresa...<NEWLINE>E o Castelo de Hyrule<NEWLINE>logo se rendeu.<BOX_BREAK><UNSKIPPABLE>Ele queria uma das chaves<NEWLINE>do Reino Sagrado...<NEWLINE>O tesouro secreto da Família<NEWLINE>Real... A Ocarina do Tempo!<BOX_BREAK><UNSKIPPABLE>Meu dever era manter Zelda<NEWLINE>fora do alcance de Ganondorf.<BOX_BREAK><UNSKIPPABLE>Quando nos vimos pela última vez,<NEWLINE>na nossa fuga do castelo,<NEWLINE>você era só um menino...<BOX_BREAK><UNSKIPPABLE>Agora vejo que se tornou<NEWLINE>um grande herói...<END>)PTBR",
+        R"PTBR(Infelizmente, eu já não posso mais cumprir o meu<NEWLINE>dever de sheikah: proteger Hyrule e a família real.<BOX_BREAK>Há sete anos, quando Ganondorf<NEWLINE>invadiu o Castelo de Hyrule...<BOX_BREAK><UNSKIPPABLE>Ele queria uma das chaves<NEWLINE>do Reino Sagrado...<NEWLINE>O tesouro secreto da Família<NEWLINE>Real... A Ocarina do Tempo!<BOX_BREAK><UNSKIPPABLE>Meu dever era manter Zelda<NEWLINE>fora do alcance de Ganondorf.<BOX_BREAK>Corajoso Link, muito bem. Você derrotou a fera<NEWLINE>no Templo das Sombras. Obrigada.<BOX_BREAK>Você superou muitos desafios para chegar aqui.<NEWLINE>A sua força é clara.<END>)PTBR",
         0x03
     },
     {
         0x5026,
-        R"PTBR(<UNSKIPPABLE>Preciso ficar aqui... Vá até<NEWLINE>a Princesa Zelda e a proteja<NEWLINE>por mim.<BOX_BREAK><UNSKIPPABLE>Para ajudá-lo, coloco agora<NEWLINE>meu poder neste<NEWLINE><COLOR:BLUE>Medalhão<COLOR:DEFAULT>!<END>)PTBR",
+        R"PTBR(Por isso, eu te peço,<NEWLINE>proteja Sua Alteza no meu lugar.<BOX_BREAK>Então, agora...<NEWLINE>para enfrentar o Rei Demoníaco, leve consigo<NEWLINE>este símbolo da minha determinação!<END>)PTBR",
         0x03
     },
     {
@@ -1118,12 +1118,12 @@ const PTBRMessageData kPTBRMessages_4000_FFFF[] = {
     },
     {
         0x502B,
-        R"PTBR(<UNSKIPPABLE>Não há com o que se preocupar...<NEWLINE>A princesa está segura agora.<END>)PTBR",
+        R"PTBR(Não se preocupem, ela está bem.<END>)PTBR",
         0x03
     },
     {
         0x502C,
-        R"PTBR(<UNSKIPPABLE>Logo você verá a Princesa Zelda<NEWLINE>pessoalmente, e ela<NEWLINE>explicará tudo...<BOX_BREAK><UNSKIPPABLE>Então nós, os seis Sábios,<NEWLINE>selaremos o Rei do Mal<NEWLINE>e devolveremos a paz a Hyrule.<END>)PTBR",
+        R"PTBR(Sua Alteza logo se revelará a vocês,<NEWLINE>e tudo ficará mais claro.<BOX_BREAK>Com isso, os sábios finalmente poderão deter<NEWLINE>o Rei Demoníaco e devolver a paz a Hyrule.<END>)PTBR",
         0x03
     },
     {
@@ -1828,32 +1828,32 @@ const PTBRMessageData kPTBRMessages_4000_FFFF[] = {
     },
     {
         0x6029,
-        R"PTBR(<UNSKIPPABLE>Ho, ho, ho!<NEWLINE>Parece que temos visita, Koume.<END>)PTBR",
+        R"PTBR(Parece que temos visita, querida Koume...<END>)PTBR",
         0x01
     },
     {
         0x602A,
-        R"PTBR(<UNSKIPPABLE>Hi, hi, hi!<NEWLINE>Parece que sim, Kotake!<END>)PTBR",
+        R"PTBR(Tem razão, Kotake querida...<END>)PTBR",
         0x03
     },
     {
         0x602B,
-        R"PTBR(<UNSKIPPABLE>Que sujeito atrevido!<NEWLINE>Invadindo nosso templo<NEWLINE>com tanta ousadia...<NEWLINE>Ho, ho, ho!<END>)PTBR",
+        R"PTBR(Nunca pensei que alguém chegaria até aqui.<NEWLINE>Que intruso petulante...<END>)PTBR",
         0x01
     },
     {
         0x602C,
-        R"PTBR(<UNSKIPPABLE>Precisamos dar uma lição<NEWLINE>nesse atrevido!<NEWLINE>Hi, hi, hi!<END>)PTBR",
+        R"PTBR(Tamanho atrevimento não ficará impune, é claro.<END>)PTBR",
         0x03
     },
     {
         0x602D,
-        R"PTBR(<UNSKIPPABLE>Ah, fiel serva...<END>)PTBR",
+        R"PTBR(Fiel serviçal,<NEWLINE>obedeça ao nosso sinal...<END>)PTBR",
         0x03
     },
     {
         0x602E,
-        R"PTBR(<UNSKIPPABLE>Destrua esse intruso<NEWLINE>em nosso nome!<END>)PTBR",
+        R"PTBR(Levante-se agora e dê fim<NEWLINE>a este tolo espadachim!<END>)PTBR",
         0x03
     },
     {
@@ -1863,37 +1863,37 @@ const PTBRMessageData kPTBRMessages_4000_FFFF[] = {
     },
     {
         0x6030,
-        R"PTBR(<UNSKIPPABLE>Uuuh...<NEWLINE>Onde estou...?<END>)PTBR",
+        R"PTBR(O que aconteceu?<END>)PTBR",
         0x03
     },
     {
         0x6031,
-        R"PTBR(<UNSKIPPABLE>Ora, ora...<NEWLINE>Parece que ela voltou ao normal...<NEWLINE>Koume...<END>)PTBR",
+        R"PTBR(Ora, ora...<NEWLINE>Parece que a nossa amiga voltou a si,<NEWLINE>querida Koume.<END>)PTBR",
         0x03
     },
     {
         0x6032,
-        R"PTBR(<UNSKIPPABLE>Ela é só uma menina,<NEWLINE>mas é muito respeitada<NEWLINE>entre as Gerudo, Kotake...<END>)PTBR",
+        R"PTBR(É bem possível,<NEWLINE>não podemos perder essa chance.<NEWLINE>Há gerudos que admiram essa jovem.<NEWLINE>Ela ainda nos pode ser útil.<NEWLINE>Tem razão, Kotake querida. Mas, desta vez,<NEWLINE>vamos garantir que ela não consiga se libertar!<END>)PTBR",
         0x03
     },
     {
         0x6033,
-        R"PTBR(<UNSKIPPABLE>Talvez devêssemos fazê-la<NEWLINE>trabalhar para o grande Ganondorf<NEWLINE>por mais um tempinho!<NEWLINE>Ho, ho, ho!<END>)PTBR",
+        R"PTBR(Nabooru, cuidado!<NEWLINE>Não se meta, rapazote!<NEWLINE>Você não escapará!<NEWLINE>Ora... Você quer resgatá-la, rapazote?<END>)PTBR",
         0x03
     },
     {
         0x6034,
-        R"PTBR(<UNSKIPPABLE>Então vamos controlar<NEWLINE>a mente dela de novo!<NEWLINE>Hi, hi, hi!<END>)PTBR",
+        R"PTBR(Então é só passar por esta porta.<NEWLINE>Essa não...<END>)PTBR",
         0x03
     },
     {
         0x6035,
-        R"PTBR(<UNSKIPPABLE>Garoto, muito obrigada.<BOX_BREAK><UNSKIPPABLE>He, he... Veja só! Em sete anos,<NEWLINE>aquele garotinho virou<NEWLINE>um espadachim habilidoso!<END>)PTBR",
+        R"PTBR(Estarei sempre em dívida com você.<NEWLINE>Muito obrigada.<BOX_BREAK>Hahaha! Olha só pra você!Aquele pirralho de sete anos atrás<NEWLINE>virou um grande espadachim!<END>)PTBR",
         0x03
     },
     {
         0x6036,
-        R"PTBR(Se eu soubesse que se tornaria<NEWLINE>um homem tão bonito...<BOX_BREAK_DELAYED:0x50>Devia ter cumprido a promessa<NEWLINE>que fiz naquela época...<FADE:0x50><END>)PTBR",
+        R"PTBR(Acho que não vou conseguir cumprir<NEWLINE>a minha promessa. A que fiz há sete anos...<END>)PTBR",
         0x52
     },
     {
@@ -1908,12 +1908,12 @@ const PTBRMessageData kPTBRMessages_4000_FFFF[] = {
     },
     {
         0x6039,
-        R"PTBR(<UNSKIPPABLE>A propósito...<BOX_BREAK><UNSKIPPABLE>Eu me dei muito mal...<BOX_BREAK><UNSKIPPABLE>Aquelas velhas bruxas controlaram<NEWLINE>minha mente, e Ganondorf me usou<NEWLINE>para realizar seus planos malignos...<BOX_BREAK><UNSKIPPABLE>Mas não é engraçado?<NEWLINE>Logo eu me tornar a<NEWLINE><COLOR:YELLOW>Sábia do Espírito<COLOR:DEFAULT>!<BOX_BREAK><UNSKIPPABLE>Agora vou enfrentá-los<NEWLINE>como integrante dos seis Sábios!<NEWLINE>He, he...<BOX_BREAK><UNSKIPPABLE>Eles vão pagar<NEWLINE>pelo que fizeram comigo!<END>)PTBR",
+        R"PTBR(Como eu pude ser tão descuidada?<NEWLINE>Caí direitinho na armadilha delas.<BOX_BREAK>Como eu pude ser tão descuidada?<NEWLINE>Caí direitinho na armadilha delas.<BOX_BREAK>Aquelas bruxas velhas<NEWLINE>me fizeram de marionete do Ganondorf.<BOX_BREAK>Depois de tudo, eu me tornei a sábia do espírito!<BOX_BREAK>Sabe o que isso significa?<NEWLINE>Eu posso ajudá-lo a derrotar o Ganondorf!<BOX_BREAK>Maldito Ganondorf. Ele não faz ideia<NEWLINE>do que é me ter como inimiga!<END>)PTBR",
         0x03
     },
     {
         0x603A,
-        R"PTBR(<UNSKIPPABLE>Garoto...<BOX_BREAK><UNSKIPPABLE>Não...<NEWLINE><NAME>, o Herói do Tempo!<BOX_BREAK><UNSKIPPABLE>Em vez de cumprir a promessa<NEWLINE>daquela época, entrego este<NEWLINE><COLOR:YELLOW>Medalhão<COLOR:DEFAULT> a você!<BOX_BREAK><UNSKIPPABLE>Aceite!<END>)PTBR",
+        R"PTBR(Ô moleq...<BOX_BREAK>Não... Herói do Tempo.<BOX_BREAK>Acho que não vou conseguir cumprir<NEWLINE>a minha promessa. A que fiz há sete anos...<NEWLINE>Mas não vou te deixar na mão!<BOX_BREAK>Faça bom proveito!<END>)PTBR",
         0x03
     },
     {
@@ -2368,7 +2368,7 @@ const PTBRMessageData kPTBRMessages_4000_FFFF[] = {
     },
     {
         0x7005,
-        R"PTBR(<UNSKIPPABLE>Isso é ótimo!<BOX_BREAK><UNSKIPPABLE>Esqueci de te dizer...<EVENT><END>)PTBR",
+        R"PTBR(Por isso, é proibido tocar<NEWLINE>a Triforça com leviandade.<NEWLINE>Perdão.<BOX_BREAK>Eu ainda nem sequer me apresentei.<END>)PTBR",
         0x01
     },
     {
@@ -2388,7 +2388,7 @@ const PTBRMessageData kPTBRMessages_4000_FFFF[] = {
     },
     {
         0x7009,
-        R"PTBR(<UNSKIPPABLE>Vê o homem com<NEWLINE>aquele olhar maligno?<BOX_BREAK><UNSKIPPABLE>É <COLOR:RED>Ganondorf<COLOR:DEFAULT>, o líder<NEWLINE>das Gerudo. Elas vêm<NEWLINE>do deserto distante, a oeste.<BOX_BREAK><UNSKIPPABLE>Ele jura lealdade ao meu pai,<NEWLINE>mas tenho certeza de que<NEWLINE>não é sincero.<BOX_BREAK><UNSKIPPABLE>As nuvens escuras que<NEWLINE>cobriam Hyrule no meu sonho...<NEWLINE>Devem representar esse homem!<END>)PTBR",
+        R"PTBR(Hã? Quem é... você?<NEWLINE>E como foi que entrou aqui?<NEWLINE>Perdão.<NEWLINE>E o seu nome? Pode me dizer qual é?<BOX_BREAK>Essa aí é uma...<NEWLINE>fada?!<NEWLINE>Eu ainda nem sequer me apresentei.<BOX_BREAK>Será que é mesmo você?<BOX_BREAK>Meu nome é Zelda,<NEWLINE>eu sou a princesa de Hyrule.<END>)PTBR",
         0x03
     },
     {
@@ -2608,17 +2608,17 @@ const PTBRMessageData kPTBRMessages_4000_FFFF[] = {
     },
     {
         0x7035,
-        R"PTBR(<UNSKIPPABLE>A lenda diz o seguinte...<EVENT><END>)PTBR",
+        R"PTBR(A Triforça contém o poder das deusas e realiza<NEWLINE>qualquer desejo do coração de quem a toca.<NEWLINE>Q-Quem é?<END>)PTBR",
         0x03
     },
     {
         0x7036,
-        R"PTBR(<UNSKIPPABLE><SHIFT:0x12>As três deusas esconderam a<NEWLINE><SHIFT:0x07><COLOR:RED>Triforce<COLOR:DEFAULT>, que contém o poder<NEWLINE><SHIFT:0x0D>dos deuses, em um local de Hyrule.<BOX_BREAK_DELAYED:0x50><UNSKIPPABLE><SHIFT:0x45>O poder<NEWLINE><SHIFT:0x03>de realizar o desejo de quem<NEWLINE><SHIFT:0x0A>tem a Triforce em suas mãos.<BOX_BREAK_DELAYED:0x50><UNSKIPPABLE><SHIFT:0x03>O desejo de um coração justo<NEWLINE><SHIFT:0x07>levará Hyrule a uma era<NEWLINE><SHIFT:0x09>de paz e prosperidade...<BOX_BREAK_DELAYED:0x3C><UNSKIPPABLE><SHIFT:0x06>Mas, se atender a um desejo<NEWLINE><SHIFT:0x0A>maligno, o mundo inteiro<NEWLINE><SHIFT:0x02>será consumido pelo mal...<NEWLINE><SHIFT:0x35>Assim diz a lenda...<BOX_BREAK_DELAYED:0x50><UNSKIPPABLE><SHIFT:0x16>Os antigos Sábios construíram<NEWLINE><SHIFT:0x02>o <COLOR:LIGHTBLUE>Templo do Tempo<COLOR:DEFAULT> para proteger<NEWLINE><SHIFT:0x20>a Triforce de pessoas malignas.<FADE:0x5A><END>)PTBR",
+        R"PTBR(A Triforça contém o poder das deusas e realiza<NEWLINE>qualquer desejo do coração de quem a toca.<NEWLINE>Se for alguém de coração puro,<NEWLINE>o mundo será envolto num belo resplendor.<NEWLINE>Mas, se for alguém de coração impuro,<NEWLINE>o mundo será coberto por trevas nefastas.<END>)PTBR",
         0x23
     },
     {
         0x7037,
-        R"PTBR(Isso mesmo... O Templo do Tempo<NEWLINE>é a passagem que liga<NEWLINE>nosso mundo<NEWLINE>ao Reino Sagrado.<BOX_BREAK>Mas a entrada está selada<NEWLINE>por uma parede de pedra chamada<NEWLINE><COLOR:LIGHTBLUE>Porta do Tempo<COLOR:DEFAULT>.<BOX_BREAK>Dizem que, para abri-la,<NEWLINE>é preciso reunir<NEWLINE>três <COLOR:RED>Pedras Espirituais<COLOR:DEFAULT>.<BOX_BREAK>E também é necessário...<NEWLINE>O tesouro que a Família Real<NEWLINE>guarda junto com esta lenda...<EVENT><END>)PTBR",
+        R"PTBR(Será que é mesmo você?<BOX_BREAK>Mas, se for alguém de coração impuro,<NEWLINE>o mundo será coberto por trevas nefastas.<BOX_BREAK>Dizem que, para abri-la,<NEWLINE>é preciso reunir<NEWLINE>três <COLOR:RED>Pedras Espirituais<COLOR:DEFAULT>.<BOX_BREAK>E também é necessário...<NEWLINE>O tesouro que a Família Real<NEWLINE>guarda junto com esta lenda...<EVENT><END>)PTBR",
         0x03
     },
     {
@@ -2763,7 +2763,7 @@ const PTBRMessageData kPTBRMessages_4000_FFFF[] = {
     },
     {
         0x7054,
-        R"PTBR(<UNSKIPPABLE><COLOR:LIGHTBLUE><NAME>... Voltamos ao<NEWLINE><COLOR:DEFAULT>Templo do Tempo<COLOR:LIGHTBLUE>...<NEWLINE>Será que <COLOR:DEFAULT>sete anos<COLOR:LIGHTBLUE><NEWLINE>se passaram mesmo?<COLOR:DEFAULT><BOX_BREAK><UNSKIPPABLE><COLOR:LIGHTBLUE>Parece que você não pode mais<NEWLINE>usar algumas das <COLOR:DEFAULT>armas<COLOR:LIGHTBLUE><NEWLINE>que encontrou quando criança...<BOX_BREAK><COLOR:DEFAULT><UNSKIPPABLE><COLOR:LIGHTBLUE>Vamos sair daqui!<COLOR:DEFAULT><END>)PTBR",
+        R"PTBR(Link, parece que voltamos ao Templo do Tempo.<NEWLINE>Será mesmo que se passaram sete anos?<NEWLINE>O que foi?<BOX_BREAK>Ó escolhido...<NEWLINE>Link, abra os olhos.<BOX_BREAK>Bom, é melhor sairmos daqui.<NEWLINE>Como será que estão as coisas lá fora?<NEWLINE>Q-Quem é?<NEWLINE>A hora finalmente chegou.<END>)PTBR",
         0x03
     },
     {
@@ -2773,12 +2773,12 @@ const PTBRMessageData kPTBRMessages_4000_FFFF[] = {
     },
     {
         0x7056,
-        R"PTBR(<UNSKIPPABLE>Estava esperando por você,<NEWLINE>Herói do Tempo...<END>)PTBR",
+        R"PTBR(Estava à sua espera...<NEWLINE>Vejo que já despertou.<NEWLINE>Muito bem, Link...<END>)PTBR",
         0x03
     },
     {
         0x7057,
-        R"PTBR(<UNSKIPPABLE>Quando o mal dominar tudo,<NEWLINE>uma voz do Reino Sagrado<NEWLINE>chamará os futuros Sábios<NEWLINE>que habitam os <COLOR:RED>cinco templos<COLOR:DEFAULT>.<BOX_BREAK><UNSKIPPABLE>Um no fundo de uma <COLOR:ADJUSTABLE>floresta<COLOR:DEFAULT>...<BOX_BREAK><UNSKIPPABLE>Um no alto de uma <COLOR:RED>montanha<COLOR:DEFAULT>...<BOX_BREAK><UNSKIPPABLE>Um sob um <COLOR:BLUE>vasto lago<COLOR:DEFAULT>...<BOX_BREAK><UNSKIPPABLE>Um na <COLOR:PURPLE>morada dos mortos<COLOR:DEFAULT>...<BOX_BREAK><UNSKIPPABLE>Um dentro de uma <COLOR:YELLOW>deusa da areia<COLOR:DEFAULT>...<BOX_BREAK><UNSKIPPABLE>Ao lado do Herói do Tempo,<NEWLINE>os Sábios despertos<NEWLINE>aprisionarão o mal e devolverão<NEWLINE>a luz da paz ao mundo...<BOX_BREAK><UNSKIPPABLE>Esta é a lenda dos templos,<NEWLINE>transmitida pelo meu povo,<NEWLINE>os <COLOR:BLUE>Sheikah<COLOR:DEFAULT>.<END>)PTBR",
+        R"PTBR(<UNSKIPPABLE>Quando o mal dominar tudo,<NEWLINE>uma voz do Reino Sagrado<NEWLINE>chamará os futuros Sábios<NEWLINE>que habitam os <COLOR:RED>cinco templos<COLOR:DEFAULT>.<BOX_BREAK><UNSKIPPABLE>Um no fundo de uma <COLOR:ADJUSTABLE>floresta<COLOR:DEFAULT>...<BOX_BREAK><UNSKIPPABLE>Um no alto de uma <COLOR:RED>montanha<COLOR:DEFAULT>...<BOX_BREAK><UNSKIPPABLE>Um sob um <COLOR:BLUE>vasto lago<COLOR:DEFAULT>...<BOX_BREAK><UNSKIPPABLE>Um na <COLOR:PURPLE>morada dos mortos<COLOR:DEFAULT>...<BOX_BREAK><UNSKIPPABLE>Um dentro de uma <COLOR:YELLOW>deusa da areia<COLOR:DEFAULT>...<BOX_BREAK>Link, o Herói do Tempo.<BOX_BREAK>Link, sei que ainda está recuperando os sentidos,<NEWLINE>mas preciso que preste atenção no que digo.<END>)PTBR",
         0x03
     },
     {
@@ -2858,7 +2858,7 @@ const PTBRMessageData kPTBRMessages_4000_FFFF[] = {
     },
     {
         0x7067,
-        R"PTBR(<UNSKIPPABLE><NAME>... Pode me ouvir?<NEWLINE>Sou Rauru, o Sábio.<BOX_BREAK><UNSKIPPABLE>Nós seis uniremos nosso poder<NEWLINE>para criar uma ponte até<NEWLINE>o castelo de Ganondorf...<BOX_BREAK><UNSKIPPABLE>A torre central do castelo,<NEWLINE>conhecida como Torre de Ganon,<NEWLINE>tem <COLOR:RED>seis barreiras malignas<COLOR:DEFAULT>.<BOX_BREAK><UNSKIPPABLE>Destrua as seis barreiras<NEWLINE>e salve a Princesa Zelda!!<END>)PTBR",
+        R"PTBR(Está me ouvindo, Link?<NEWLINE>É o Rauru!<BOX_BREAK>Saiba que haverá incontáveis perigos no castelo.<BOX_BREAK>Mas, cuidado... Ele pretende se apoderar<NEWLINE>da Triforça da Coragem que habita em você.<BOX_BREAK>Ó Herói do Tempo, derrote Ganondorf<NEWLINE>e salve a princesa Zelda.<NEWLINE>Prossiga com cautela.<END>)PTBR",
         0x21
     },
     {
@@ -2898,12 +2898,12 @@ const PTBRMessageData kPTBRMessages_4000_FFFF[] = {
     },
     {
         0x706F,
-        R"PTBR(<UNSKIPPABLE>Obrigada, <NAME>...<BOX_BREAK><UNSKIPPABLE>Graças a você, Ganondorf<NEWLINE>foi selado no Reino do Mal!<BOX_BREAK><UNSKIPPABLE>A paz voltará a reinar<NEWLINE>neste mundo... Por um tempo.<END>)PTBR",
+        R"PTBR(Link, obrigada...<BOX_BREAK>O Ganondorf foi selado no Domínio Maligno.<BOX_BREAK>Agora, este mundo finalmente testemunhará<NEWLINE>uma era de paz.<END>)PTBR",
         0x03
     },
     {
         0x7070,
-        R"PTBR(<UNSKIPPABLE><SHIFT:0x3C>Obrigada...<NEWLINE><SHIFT:0x32><NAME>...<BOX_BREAK_DELAYED:0x28><UNSKIPPABLE><SHIFT:0x32>Adeus...<FADE:0x3C><END>)PTBR",
+        R"PTBR(Link, obrigada...<END>)PTBR",
         0x22
     },
     {
@@ -2938,22 +2938,22 @@ const PTBRMessageData kPTBRMessages_4000_FFFF[] = {
     },
     {
         0x7077,
-        R"PTBR(<UNSKIPPABLE>Sou <COLOR:RED>Sheik<COLOR:DEFAULT>.<NEWLINE>Sobrevivente dos Sheikah...<END>)PTBR",
+        R"PTBR(Meu nome é Sheik. Eu sou um dos últimos<NEWLINE>sobreviventes do povo sheikah.<NEWLINE>O meu nome é Rauru. Sou aquele que,<NEWLINE>no passado, construiu o Templo do Tempo,e o conectou ao caminho para o Domínio Sagrado.<NEWLINE>Graças à sua valentia,<NEWLINE>os seis sábios, enfim, despertaram!<END>)PTBR",
         0x03
     },
     {
         0x7078,
-        R"PTBR(<UNSKIPPABLE>Vendo você aí,<NEWLINE>com a mítica <COLOR:RED>Espada<NEWLINE>Mestra<COLOR:DEFAULT>, realmente parece<NEWLINE>o lendário Herói do Tempo...<END>)PTBR",
+        R"PTBR(Link, primeiro, acalme sua mente<NEWLINE>e observe com cuidado o seu aspecto atual.<NEWLINE>A hora de enfrentar o Rei Demoníaco se aproxima.<END>)PTBR",
         0x03
     },
     {
         0x7079,
-        R"PTBR(<UNSKIPPABLE>Se acredita na lenda, você<NEWLINE>não tem escolha. Deve encontrar<NEWLINE>os cinco templos e despertar os<NEWLINE><COLOR:RED>cinco Sábios<COLOR:DEFAULT>...<END>)PTBR",
+        R"PTBR(Link, nossa, você tá enorme!<NEWLINE>Olha só como você cresceu!<NEWLINE>Link, você precisa encontrar os sábios.<NEWLINE>O futuro de Hyrule está nas suas mãos.<NEWLINE>Mas, antes... há mais uma pessoa<NEWLINE>com quem você deve se encontrar.<END>)PTBR",
         0x03
     },
     {
         0x707A,
-        R"PTBR(<UNSKIPPABLE>Uma Sábia aguarda seu despertar<NEWLINE>no <COLOR:ADJUSTABLE>Templo da Floresta<COLOR:DEFAULT>.<NEWLINE>Tenho certeza de que você<NEWLINE>conhece essa garota...<BOX_BREAK><UNSKIPPABLE>Por causa do poder maligno<NEWLINE>no templo, ela não consegue<NEWLINE>ouvir o chamado do Reino<NEWLINE>Sagrado para despertar...<BOX_BREAK><UNSKIPPABLE>Infelizmente, com seu equipamento<NEWLINE>atual, você nem sequer pode<NEWLINE>entrar no templo...<BOX_BREAK><UNSKIPPABLE>Mas, se acredita no que digo,<NEWLINE>vá até a <COLOR:RED>Vila<NEWLINE>Kakariko<COLOR:DEFAULT>...<BOX_BREAK><UNSKIPPABLE>Entendeu,<NEWLINE><NAME>?<END>)PTBR",
+        R"PTBR(<UNSKIPPABLE>Uma Sábia aguarda seu despertar<NEWLINE>no <COLOR:ADJUSTABLE>Templo da Floresta<COLOR:DEFAULT>.<NEWLINE>Tenho certeza de que você<NEWLINE>conhece essa garota...<BOX_BREAK>Ela está à sua espera no Templo do Tempo.<BOX_BREAK><UNSKIPPABLE>Infelizmente, com seu equipamento<NEWLINE>atual, você nem sequer pode<NEWLINE>entrar no templo...<BOX_BREAK><UNSKIPPABLE>Mas, se acredita no que digo,<NEWLINE>vá até a <COLOR:RED>Vila<NEWLINE>Kakariko<COLOR:DEFAULT>...<BOX_BREAK><UNSKIPPABLE>Entendeu,<NEWLINE><NAME>?<END>)PTBR",
         0x03
     },
     {
@@ -3068,27 +3068,27 @@ const PTBRMessageData kPTBRMessages_4000_FFFF[] = {
     },
     {
         0x7091,
-        R"PTBR(<UNSKIPPABLE>Toda a tragédia que se abateu<NEWLINE>sobre Hyrule foi culpa minha...<BOX_BREAK><UNSKIPPABLE>Eu era tão jovem... Não entendia<NEWLINE>as consequências de tentar<NEWLINE>controlar o Reino Sagrado.<BOX_BREAK><UNSKIPPABLE>E arrastei você para isso.<BOX_BREAK><UNSKIPPABLE>Agora é hora de reparar<NEWLINE>os meus erros...<BOX_BREAK><UNSKIPPABLE>Devolva a Espada Mestra ao seu<NEWLINE>repouso e feche a Porta do Tempo...<END>)PTBR",
+        R"PTBR(Todas as tragédias que nos acometeram<NEWLINE>até hoje foram minha culpa.<BOX_BREAK>Eu deveria saber que abrir o caminho para<NEWLINE>o Domínio Sagrado teria consequências...<BOX_BREAK>e o resultado foi a desgraça de tanta, tanta gente.<BOX_BREAK>Devo corrigir os meus erros,<NEWLINE>ainda que somente em parte.<BOX_BREAK><UNSKIPPABLE>Devolva a Espada Mestra ao seu<NEWLINE>repouso e feche a Porta do Tempo...<END>)PTBR",
         0x03
     },
     {
         0x7092,
-        R"PTBR(<UNSKIPPABLE>Mas, com isso, o caminho entre<NEWLINE>as duas épocas será fechado...<END>)PTBR",
+        R"PTBR(Vou devolver a Espada Mestra ao repouso<NEWLINE>e fechar o caminho para o Domínio Sagrado.<END>)PTBR",
         0x03
     },
     {
         0x7093,
-        R"PTBR(<UNSKIPPABLE><NAME>,<NEWLINE>dê-me a Ocarina...<BOX_BREAK><UNSKIPPABLE>Como Sábia, posso usá-la para<NEWLINE>levar você de volta à sua época.<END>)PTBR",
+        R"PTBR(Link, a Ocarina do Tempo, por favor.<BOX_BREAK>Agora que sou uma sábia, eu posso te enviar<NEWLINE>de volta ao tempo em que não nos conhecíamos.<END>)PTBR",
         0x03
     },
     {
         0x7094,
-        R"PTBR(<UNSKIPPABLE>Quando a paz voltar a Hyrule...<BOX_BREAK><UNSKIPPABLE>Será hora de nos<NEWLINE>despedirmos...<END>)PTBR",
+        R"PTBR(A paz voltou a reinar em Hyrule...<NEWLINE>Então, é chegada a hora da nossa despedida.<BOX_BREAK><UNSKIPPABLE>Será hora de nos<NEWLINE>despedirmos...<END>)PTBR",
         0x01
     },
     {
         0x7095,
-        R"PTBR(<UNSKIPPABLE>Volte para casa, <NAME>.<NEWLINE>Recupere o tempo que perdeu!<BOX_BREAK><UNSKIPPABLE>Para casa...<NEWLINE>onde você deveria estar...<NEWLINE>como você deveria ser...<END>)PTBR",
+        R"PTBR(Agora, volte para casa, Link.<NEWLINE>Vá e recupere o seu tempo perdido.<BOX_BREAK>como deveria ser.<END>)PTBR",
         0x03
     },
     {
@@ -3493,17 +3493,17 @@ const PTBRMessageData kPTBRMessages_4000_FFFF[] = {
     },
     {
         0x70E6,
-        R"PTBR(<COLOR:LIGHTBLUE><NAME>, aquilo não é...?!<COLOR:DEFAULT><END>)PTBR",
+        R"PTBR(Link, olha...<END>)PTBR",
         0x03
     },
     {
         0x70E7,
-        R"PTBR(<COLOR:LIGHTBLUE>É aquela lâmina lendária...<COLOR:DEFAULT><FADE:0x1E><END>)PTBR",
+        R"PTBR(a espada lendária que subjuga o mal...<END>)PTBR",
         0x03
     },
     {
         0x70E8,
-        R"PTBR(<QUICKTEXT_ENABLE><SHIFT:0x29><COLOR:LIGHTBLUE>A Espada Mestra!!<COLOR:DEFAULT><QUICKTEXT_DISABLE><END>)PTBR",
+        R"PTBR(A Espada Mestra.<END>)PTBR",
         0x03
     },
     {
