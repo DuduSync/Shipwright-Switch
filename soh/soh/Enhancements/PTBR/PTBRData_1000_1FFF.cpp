@@ -643,7 +643,7 @@ const PTBRMessageData kPTBRMessages_1000_1FFF[] = {
     },
     {
         0x1080,
-        R"PTBR(Dizem que, em um passado muito, muito distante,<NEWLINE>seres divinos criaram um reino chamado Hyrule.<END>)PTBR",
+        R"PTBR(<QUICKTEXT_ENABLE><SHIFT:0x02>Três deusas douradas desceram<NEWLINE><SHIFT:0x04>sobre o caos que era Hyrule...<QUICKTEXT_DISABLE><FADE:0x63><END>)PTBR",
         0x40
     },
     {
@@ -788,17 +788,17 @@ const PTBRMessageData kPTBRMessages_1000_1FFF[] = {
     },
     {
         0x109D,
-        R"PTBR(Às margens desse reino,<NEWLINE>havia uma pequena floresta.<END>)PTBR",
+        R"PTBR(Às margens desse reino, havia uma pequena floresta.<BOX_BREAK_DELAYED:0x28><SHIFT:0x16>Dentro dela, uma velha árvore<NEWLINE><SHIFT:0x0C>solitária velava em silêncio<NEWLINE><SHIFT:0x0C>por todos que lá viviam.<FADE:0x46><END>)PTBR",
         0x40
     },
     {
         0x109E,
-        R"PTBR(Tais habitantes eram conhecidos como kokiris.<END>)PTBR",
+        R"PTBR(Tais habitantes eram conhecidos<NEWLINE>como kokiris.<BOX_BREAK_DELAYED:0x3C><SHIFT:0x0B>Cada kokiri tinha uma amiga fada,<NEWLINE><SHIFT:0x0B>e todos levavam uma vida simples<NEWLINE><SHIFT:0x0B>na tranquila floresta.<FADE:0x3C><END>)PTBR",
         0x40
     },
     {
         0x109F,
-        R"PTBR(Contudo, entre eles havia um garoto...<NEWLINE>que não tinha uma fada.<END>)PTBR",
+        R"PTBR(Contudo, entre eles havia<NEWLINE>um garoto...<NEWLINE>que não tinha uma fada.<FADE:0x3C><END>)PTBR",
         0x40
     },
     {
