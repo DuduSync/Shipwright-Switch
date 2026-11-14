@@ -218,6 +218,27 @@ jobs:
         wget https://github.com/Kitware/CMake/releases/download/v3.28.3/cmake-3.28.3-linux-x86_64.sh -O /tmp/cmake.sh
         sudo sh /tmp/cmake.sh --prefix=/usr/local/ --exclude-subdir
 
+    - name: Patch LUS audio for DuduSync voice mixing
+      run: |
+        sudo apt-get install -y patch
+        python3 - <<'PATCHEOF'
+        p = 'libultraship/src/ship/audio/SDLAudioPlayer.cpp'
+        s = open(p).read()
+        s = s.replace('#include <spdlog/spdlog.h>',
+                      '#include <spdlog/spdlog.h>\n#include <cstring>\n#include <vector>\n\nextern "C" void DuduSyncVoice_Mix(int16_t*, size_t, int, int) __attribute__((weak));', 1)
+        s = s.replace('        SDL_QueueAudio(mDevice, buf, len);',
+                      '        if (DuduSyncVoice_Mix != nullptr && len > 0) {\n'
+                      '            std::vector<uint8_t> mixed(len);\n'
+                      '            std::memcpy(mixed.data(), buf, len);\n'
+                      '            DuduSyncVoice_Mix(reinterpret_cast<int16_t*>(mixed.data()), len / (sizeof(int16_t) * mNumChannels), mNumChannels, this->GetSampleRate());\n'
+                      '            SDL_QueueAudio(mDevice, mixed.data(), len);\n'
+                      '        } else {\n'
+                      '            SDL_QueueAudio(mDevice, buf, len);\n'
+                      '        }', 1)
+        open(p, 'w').write(s)
+        print('patched SDLAudioPlayer.cpp')
+        PATCHEOF
+
     - name: Build SoH
       run: |
         export PATH="/usr/lib/ccache:/usr/local/opt/ccache/libexec:$PATH"
