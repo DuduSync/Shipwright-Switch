@@ -788,17 +788,17 @@ const PTBRMessageData kPTBRMessages_1000_1FFF[] = {
     },
     {
         0x109D,
-        R"PTBR(Na vasta floresta de Hyrule...<BOX_BREAK_DELAYED:0x28><SHIFT:0x16>Há muito tempo, sou<NEWLINE><SHIFT:0x33>o espírito guardião...<NEWLINE><SHIFT:0x0C>Conhecem-me como Árvore Deku...<FADE:0x46><END>)PTBR",
+        R"PTBR(Às margens desse reino, havia uma pequena floresta.<BOX_BREAK_DELAYED:0x28><SHIFT:0x16>Dentro dela, uma velha árvore<NEWLINE><SHIFT:0x0C>solitária velava em silêncio<NEWLINE><SHIFT:0x0C>por todos que lá viviam.<FADE:0x46><END>)PTBR",
         0x40
     },
     {
         0x109E,
-        R"PTBR(<SHIFT:0x0B>As crianças da floresta, os<NEWLINE><SHIFT:0x19>Kokiri, vivem aqui comigo.<BOX_BREAK_DELAYED:0x3C><SHIFT:0x0B>Cada Kokiri tem sua própria<NEWLINE><SHIFT:0x38>fada guardiã.<FADE:0x3C><END>)PTBR",
+        R"PTBR(Tais habitantes eram conhecidos<NEWLINE>como kokiris.<BOX_BREAK_DELAYED:0x3C><SHIFT:0x0B>Cada kokiri tinha uma amiga fada,<NEWLINE><SHIFT:0x0B>e todos levavam uma vida simples<NEWLINE><SHIFT:0x0B>na tranquila floresta.<FADE:0x3C><END>)PTBR",
         0x40
     },
     {
         0x109F,
-        R"PTBR(<SHIFT:0x0B>Mas existe um garoto<COLOR:RED> <COLOR:DEFAULT>que<NEWLINE><SHIFT:0x20>não tem uma fada...<FADE:0x3C><END>)PTBR",
+        R"PTBR(Contudo, entre eles havia<NEWLINE>um garoto...<NEWLINE>que não tinha uma fada.<FADE:0x3C><END>)PTBR",
         0x40
     },
     {
