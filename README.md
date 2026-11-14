@@ -1,113 +1,46 @@
-![Ship of Harkinian](docs/shiptitle.darkmode.png#gh-dark-mode-only)
-![Ship of Harkinian](docs/shiptitle.lightmode.png#gh-light-mode-only)
+# 🎮 DuduSync — Zelda: Ocarina of Time PT-BR no Switch
 
-* [Website](https://www.shipofharkinian.com)
-* [Discord](https://discord.com/invite/harbourmasters)
+> Projeto pessoal do **DuduSync**: trazer a **dublagem oficial PT-BR e os visuais do remake de OoT do Switch 2** para o **Ship of Harkinian (SoH)** rodando no **Nintendo Switch 1**.
 
-If you're having any trouble after reading through this `README`, feel free to ask for help in the Support text channels. Please keep in mind that we do not condone piracy.
+## O que é
 
-# Quick Start
+Este fork do [Shipwright-Switch](https://github.com/timschneeb/Shipwright-Switch) é a base do meu port **PT-BR** de Ocarina of Time:
 
-The Ship does not include any copyrighted assets.  You are required to provide a supported copy of the game.
+- **Dublagem oficial PT-BR** extraída do remake do Switch 2 (vozes `USpt` do `.nup`)
+- **Textos PT-BR oficiais do remake** nas cutscenes dubladas (legenda = voz)
+- **Texturas HD/3DS**: OoT Reloaded + Djipi's 3DS Experience
+- **Pipeline** de mapeamento por `CS_TEXT` do decomp, validação com **Parakeet v3** (STT local no celular)
+- **Builds automáticos** via GitHub Actions → `soh.nro` + `soh.o2r`
 
-### 1. Verify your ROM dump
-You can verify you have dumped a supported copy of the game by using the compatibility checker at https://ship.equipment/. If you'd prefer to manually validate your ROM dump, you can cross-reference its `sha1` hash with the hashes [here](docs/supportedHashes.json).
+## Status
 
-### 2. Prepare the asset files on your PC
-* Run one of the [PC releases](https://github.com/HarbourMasters/Shipwright/releases/tag/9.2.3) to generate an `oot.o2r` and/or `oot-mq.o2r` file. After launching the game on PC, you will be able to find these files in the same directory as `soh.exe` or `soh.appimage`. On macOS, these files can be found in `/Users/<username>/Library/Application Support/com.shipofharkinian.soh/`
+- ✅ Intro dublada e sincronizada (aprovada)
+- ✅ Medalhões, Espada Mestra, Lenda da Triforce e Ending
+- 🔄 Expansão para as demais cutscenes (V1 + V2)
+- ✅ 35 OTRs do Djipi instalados; HD Reloaded 4 GB
+- ⚠️ NPCs: o remake só dublou cutscenes; não há voz de NPC nos arquivos oficiais
 
-### 3. Launch the Game!
-#### Windows
-* Extract the zip
-* Launch `soh.exe`
+## Como funciona
 
-#### Linux
-* Execute `soh.appimage`.  You may have to `chmod +x` the appimage via terminal.
-* When prompted, select your supported copy of the game.
-* Saves, settings and `oot.o2r` are stored in `~/.local/share/soh/`. If the folder you launch from already has `shipofharkinian.json`, `oot.o2r` or `oot-mq.o2r`, that folder is used instead. Set `SHIP_HOME` to choose another folder.
+1. Extração do `.nup` (NupExplorer): vozes BWAV + MSBT PT-BR
+2. Mapeamento voz → `textId` do OoT via `CS_TEXT` do decomp (`zeldaret/oot`)
+3. Geração de `voices/ptbr/<TID>_<página>.wav` (48 kHz)
+4. Hook no SoH (`DuduSyncVoice`) + mixer no `libultraship` (Switch só tem 1 device SDL)
+5. Texto PTBR trocado pelo oficial do remake nas caixas dubladas
+6. CI no GitHub Actions gera o build; instalação via FTP (Sphaira)
 
-#### macOS
-* Run `soh.app`. When prompted, select your supported copy of the game.
-* You should see a notification saying `Processing OTR`, then, once the process is complete, you should get a notification saying `OTR Successfully Generated`, then the game should start.
+## Build
 
-#### Nintendo Switch
-* Download and extract [the latest Switch release](https://github.com/timschneeb/Shipwright-Switch/releases) from releases (ZIP file with `soh.nro` and `soh.o2r`)
-* Copy the files to your sd card
+O workflow **`generate-builds`** roda no push da branch **`dudu-voice`** e publica o artifact `soh-nx` (via nightly.link). O `soh.o2r` é gerado separadamente.
 
-```
-sdcard
-└── switch
-    └── soh
-        ├── oot-mq.o2r
-        ├── oot.o2r
-        ├── soh.nro
-        └── soh.o2r
-```
-* Launch via Atmosphere's `Game+R` launcher method.
+## Créditos
 
-### 4. Play!
+- [Harbour Masters / Shipwright](https://github.com/HarbourMasters/Shipwright) — o port
+- [timschneeb / Shipwright-Switch](https://github.com/timschneeb/Shipwright-Switch) — port do Switch
+- [zeldaret/oot](https://github.com/zeldaret/oot) — decomp e CS_TEXT
+- [Djipi's 3DS Experience](https://gamebanana.com/mods/477979), [OoT Reloaded](https://github.com/GhostlyDark/OoT-Reloaded-SoH), [Shipwright-PTBR](https://github.com/GeraldoCruzeiro/Shipwright-PTBR)
+- [sherpa-onnx / Parakeet v3](https://github.com/k2-fsa/sherpa-onnx) — STT local
 
-Congratulations, you are now sailing with the Ship of Harkinian! Have fun!
+## Aviso
 
-# Configuration
-
-### Default keyboard configuration
-| N64 | A | B | Z | Start | Analog stick | C buttons | D-Pad |
-| - | - | - | - | - | - | - | - |
-| Keyboard | X | C | Z | Space | WASD | Arrow keys | TFGH |
-
-### Other shortcuts
-| Keys                | Action |
-|---------------------| - |
-| ESC or Minus Button | Toggle menu |
-| F2                  | Toggle capture mouse input |
-| F5                  | Save state |
-| F6                  | Change state |
-| F7                  | Load state |
-| F9                  | Toggle Text-to-Speech |
-| F11                 | Fullscreen |
-| Tab                 | Toggle Alternate assets |
-| Ctrl+R              | Reset |
-
-# Project Overview
-Ship of Harkinian (SOH) is built atop a custom library dubbed libultraship (LUS). Back in the N64 days, there was an SDK distributed to developers named libultra; LUS is designed to mimic the functionality of libultra on modern hardware. In addition, we are dependent on the source code provided by the OOT decompilation project.
-
-In order for the game to function, you will require a **legally acquired** ROM for Ocarina of Time. Click [here](https://ship.equipment/) to check the compatibility of your specific rom. Any copyrighted assets are extracted from the ROM and reformatted as a .o2r archive file which the code uses.
-
-### Graphics Backends
-Currently, there are three rendering APIs supported: DirectX11 (Windows), OpenGL (all platforms), and Metal (MacOS). You can change which API to use in the `Settings` menu of the menubar, which requires a restart.  If you're having an issue with crashing, you can change the API in the `shipofharkinian.json` file by finding the line `gfxbackend:""` and changing the value to `sdl` for OpenGL. DirectX 11 is the default on Windows.
-
-# Custom Assets
-
-Custom assets are packed in `.otr` archive files. To use custom assets, place them in the `mods` folder.
-
-If you're interested in creating and/or packing your own custom asset `.otr` files, check out the following tools:
-* [**retro - OTR generator**](https://github.com/HarbourMasters64/retro)
-* [**fast64 - Blender plugin**](https://github.com/HarbourMasters/fast64)
-
-# Development
-### Building
-
-If you want to manually compile SoH, please consult the [building instructions](docs/BUILDING.md).
-
-### Playtesting
-If you want to playtest a continuous integration build, you can find them at the links below. Keep in mind that these are for playtesting only, and you will likely encounter bugs and possibly crashes. 
-
-* [Nintendo Switch](https://nightly.link/timschneeb/Shipwright/workflows/generate-builds/develop/soh-nx.zip)
-
-### Further Reading
-More detailed documentation can be found in the 'docs' directory, including the aforementioned [building instructions](docs/BUILDING.md).
-
-* [Credits](docs/CREDITS.md)
-* [Custom Music](docs/CUSTOM_MUSIC.md)
-* [Formatting](docs/FORMATTING.md)
-* [Controller Mapping](docs/GAME_CONTROLLER_DB.md)
-* [Modding](docs/MODDING.md)
-* [Versioning](docs/VERSIONING.md)
-
-<a href="https://github.com/Kenix3/libultraship/">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./docs/poweredbylus.darkmode.png">
-    <img alt="Powered by libultraship" src="./docs/poweredbylus.lightmode.png">
-  </picture>
-</a>
+Projeto **fan-made**, sem fins comerciais. **Não distribui ROM nem assets originais**; requer uma cópia legal de Ocarina of Time. Todo o crédito aos autores originais.
