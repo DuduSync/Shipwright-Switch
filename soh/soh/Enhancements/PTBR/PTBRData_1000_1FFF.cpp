@@ -108,7 +108,7 @@ const PTBRMessageData kPTBRMessages_1000_1FFF[] = {
     },
     {
         0x1015,
-        R"PTBR(Confiarei tudo àquele menino.<NEWLINE>Navi!<NEWLINE>Pequena Navi, onde está você, minha querida?<NEWLINE>Ah, Navi.<BOX_BREAK><UNSKIPPABLE><NAME>...<NEWLINE>Bem-vindo...<BOX_BREAK>Estou aqui, ó Grande Árvore Deko!<NEWLINE>Se não for muito incômodo,<NEWLINE>tenho um pedido a fazer.<BOX_BREAK><UNSKIPPABLE>Seu sono nestas últimas noites<NEWLINE>deve ter sido agitado<NEWLINE>e cheio de pesadelos...<BOX_BREAK>É triste saber que logo não poderei mais proteger<NEWLINE>a floresta. Preciso garantir a segurança dela!<NEWLINE>Em que posso ajudar?<BOX_BREAK>Link! Ei, Link, acorda!<BOX_BREAK><UNSKIPPABLE><NAME>...<NEWLINE>Chegou a hora de pôr<NEWLINE>sua coragem à prova...<TEXTID:0x10,0x16><END>)PTBR",
+        R"PTBR(Confiarei tudo àquele menino.<NEWLINE>Navi!<NEWLINE>Pequena Navi, onde está você, minha querida?<NEWLINE>Ah, Navi.<BOX_BREAK><UNSKIPPABLE><NAME>...<NEWLINE>Bem-vindo...<BOX_BREAK>Estou aqui, ó Grande Árvore Deko!<NEWLINE>Se não for muito incômodo,<NEWLINE>tenho um pedido a fazer.<BOX_BREAK><UNSKIPPABLE>Seu sono nestas últimas noites<NEWLINE>deve ter sido agitado<NEWLINE>e cheio de pesadelos...<BOX_BREAK>É triste saber que logo não poderei mais proteger<NEWLINE>a floresta. Preciso garantir a segurança dela!<NEWLINE>Em que posso ajudar?<BOX_BREAK>Link! Ei, Link, acorda!<BOX_BREAK><UNSKIPPABLE><NAME>...<NEWLINE>Chegou a hora de pôr<NEWLINE>sua coragem à prova...<TEXTID:0x10,0x16><BOX_BREAK><NEWLINE><END>)PTBR",
         0x03
     },
     {
@@ -118,7 +118,7 @@ const PTBRMessageData kPTBRMessages_1000_1FFF[] = {
     },
     {
         0x1017,
-        R"PTBR(Ah, finalmente acordou!<BOX_BREAK>Ele se chama Link.<NEWLINE>Certo. Vou buscá-lo, já!<NEWLINE>Eu sou a fada Navi!<BOX_BREAK>O que será que a Grande Árvore Deko quer<NEWLINE>falar com um dorminhoco desses, hein?<END>)PTBR",
+        R"PTBR(Ah, finalmente acordou!<BOX_BREAK>Ele se chama Link.<NEWLINE>Certo. Vou buscá-lo, já!<NEWLINE>Eu sou a fada Navi!<BOX_BREAK>O que será que a Grande Árvore Deko quer<NEWLINE>falar com um dorminhoco desses, hein?<BOX_BREAK><NEWLINE><END>)PTBR",
         0x03
     },
     {
@@ -508,7 +508,7 @@ const PTBRMessageData kPTBRMessages_1000_1FFF[] = {
     },
     {
         0x1065,
-        R"PTBR(Muito tempo atrás, uma guerra terrível<NEWLINE>assolou o reino de Hyrule.<NEWLINE>Um dia, fugindo do conflito com o filho nos braços,<NEWLINE>uma hyliana buscou abrigo na Floresta Kokiri.<NEWLINE>Ferida de morte, a mãe confiou o filho<NEWLINE>à Árvore Deko, o espírito da floresta.<NEWLINE>No instante em que viu o menino,a Árvore Deko pressentiu que ele teria<NEWLINE>um grande destino e decidiu protegê-lo.<NEWLINE>Após a morte da mãe, o menino foi criado como<NEWLINE>kokiri sob o olhar atento da Árvore Deko.<END>)PTBR",
+        R"PTBR(Muito tempo atrás, uma guerra terrível<NEWLINE>assolou o reino de Hyrule.<NEWLINE>Um dia, fugindo do conflito com o filho nos braços,<NEWLINE>uma hyliana buscou abrigo na Floresta Kokiri.<NEWLINE>Ferida de morte, a mãe confiou o filho<NEWLINE>à Árvore Deko, o espírito da floresta.<NEWLINE>No instante em que viu o menino,a Árvore Deko pressentiu que ele teria<NEWLINE>um grande destino e decidiu protegê-lo.<NEWLINE>Após a morte da mãe, o menino foi criado como<NEWLINE>kokiri sob o olhar atento da Árvore Deko.<BOX_BREAK>Muitos anos depois,<NEWLINE>o fatídico dia daquele jovem chegou.<END>)PTBR",
         0x21
     },
     {
@@ -533,12 +533,12 @@ const PTBRMessageData kPTBRMessages_1000_1FFF[] = {
     },
     {
         0x106A,
-        R"PTBR(E quando você chegou e derrotou aquela criatura,<NEWLINE>finalmente despertei como sábia.<NEWLINE>Obrigada, Herói do Tempo.<BOX_BREAK>Eu sou Saria,<NEWLINE>a sábia da floresta.<END>)PTBR",
+        R"PTBR(E quando você chegou e derrotou aquela criatura,<NEWLINE>finalmente despertei como sábia.<NEWLINE>Obrigada, Herói do Tempo.<BOX_BREAK>Eu sou Saria,<NEWLINE>a sábia da floresta.<BOX_BREAK>Estava vagando pelo Templo da Floresta,<NEWLINE>e o sábio Rauru me chamou para cá.<END>)PTBR",
         0x03
     },
     {
         0x106B,
-        R"PTBR(Tenho certeza, isso vai te ajudar na sua aventura.<END>)PTBR",
+        R"PTBR(Tenho certeza, isso vai te ajudar na sua aventura.<BOX_BREAK>Link, tenho uma coisa pra você.<NEWLINE>A minha... determinação.<END>)PTBR",
         0x52
     },
     {
@@ -628,7 +628,7 @@ const PTBRMessageData kPTBRMessages_1000_1FFF[] = {
     },
     {
         0x107D,
-        R"PTBR(Uuurgh...Eu sinto que o meu tempo...<NEWLINE>está chegando ao fim...<END>)PTBR",
+        R"PTBR(Uuurgh...Eu sinto que o meu tempo...<NEWLINE>está chegando ao fim...<BOX_BREAK><NEWLINE><END>)PTBR",
         0x03
     },
     {
@@ -718,12 +718,12 @@ const PTBRMessageData kPTBRMessages_1000_1FFF[] = {
     },
     {
         0x108F,
-        R"PTBR(Obrigada, Herói do Tempo.<NEWLINE>Link... você cresceu tanto!<NEWLINE>Eu queria dizer obrigada por tudo.<NEWLINE>Saria, que bom que você está bem.<BOX_BREAK>Link, Navi...<BOX_BREAK><UNSKIPPABLE>É nosso destino não podermos<NEWLINE>viver no mesmo mundo.<END>)PTBR",
+        R"PTBR(Obrigada, Herói do Tempo.<NEWLINE>Link... você cresceu tanto!<NEWLINE>Eu queria dizer obrigada por tudo.<NEWLINE>Saria, que bom que você está bem.<BOX_BREAK>Link, Navi...<BOX_BREAK><UNSKIPPABLE>É nosso destino não podermos<NEWLINE>viver no mesmo mundo.<BOX_BREAK>Agora, vamos voltar à Floresta Kokiri.<NEWLINE>O Mido nos espera.<NEWLINE>Eu não posso voltar.<END>)PTBR",
         0x03
     },
     {
         0x1090,
-        R"PTBR(Nós temos que selar o Ganondorf daqui.<NEWLINE>Essa é a missão dos sábios.<BOX_BREAK>Agora, aceite!<END>)PTBR",
+        R"PTBR(Nós temos que selar o Ganondorf daqui.<NEWLINE>Essa é a missão dos sábios.<BOX_BREAK>Agora, aceite!<BOX_BREAK>Nunca poderei voltar ao nosso mundo.<NEWLINE>Diga ao Mido que peço desculpas,<NEWLINE>mas não posso cumprir a minha promessa...<BOX_BREAK><NEWLINE>Tá tudo bem! Só de saber que eu vou ajudar vocês,<NEWLINE>eu já fico muito, muito feliz!<END>)PTBR",
         0x03
     },
     {

@@ -368,7 +368,7 @@ const PTBRMessageData kPTBRMessages_4000_FFFF[] = {
     },
     {
         0x4049,
-        R"PTBR(Em vez disso, eu, sábia da água, devo ficar aqui<NEWLINE>para selar o Rei Demoníaco.<BOX_BREAK>Acho que você está procurando<NEWLINE>uma princesa chamada Zelda.<BOX_BREAK>Você nem imagina as coisas que eu sei.<END>)PTBR",
+        R"PTBR(Em vez disso, eu, sábia da água, devo ficar aqui<NEWLINE>para selar o Rei Demoníaco.<BOX_BREAK>Acho que você está procurando<NEWLINE>uma princesa chamada Zelda.<BOX_BREAK>Você nem imagina as coisas que eu sei.<BOX_BREAK>Sei que foi isso que me atraiu para o templo.<NEWLINE>É isso. Esta é a minha sina.<NEWLINE>Ruto...<BOX_BREAK>Ah, mas não me entendam mal!<NEWLINE>Achei meu propósito, e isso me deixa feliz.<NEWLINE>Os zoras foram salvos por vocês dois.<NEWLINE>Então, agora, é minha vez de retribuir o favor.<BOX_BREAK>Link...<NEWLINE><END>)PTBR",
         0x03
     },
     {
@@ -398,7 +398,7 @@ const PTBRMessageData kPTBRMessages_4000_FFFF[] = {
     },
     {
         0x404F,
-        R"PTBR(Um menino e uma fada?<NEWLINE>O que estão fazendo aqui?<NEWLINE>Com licença, mas é você a princesa zora<NEWLINE>que escreveu a carta da garrafa?<NEWLINE>Sim, isso mesmo...<NEWLINE>Eu sou Ruto, a princesa zora.<END>)PTBR",
+        R"PTBR(Um menino e uma fada?<NEWLINE>O que estão fazendo aqui?<NEWLINE>Com licença, mas é você a princesa zora<NEWLINE>que escreveu a carta da garrafa?<NEWLINE>Sim, isso mesmo...<NEWLINE>Eu sou Ruto, a princesa zora.<BOX_BREAK><NEWLINE><END>)PTBR",
         0x03
     },
     {
@@ -413,7 +413,7 @@ const PTBRMessageData kPTBRMessages_4000_FFFF[] = {
     },
     {
         0x4052,
-        R"PTBR(Agora, podem ir. Ainda há algo<NEWLINE>que preciso encontrar aqui.<NEWLINE>Ouviram? Vão embora de uma vez!<END>)PTBR",
+        R"PTBR(Agora, podem ir. Ainda há algo<NEWLINE>que preciso encontrar aqui.<NEWLINE>Ouviram? Vão embora de uma vez!<BOX_BREAK>E-Espera, por favor!<NEWLINE>Me deixem! Que gente chat...<BOX_BREAK><NEWLINE>Aaaahhh!<BOX_BREAK>sim isso mesmo eu sou ruto a princesa zora)PTBR",
         0x03
     },
     {
@@ -1078,7 +1078,7 @@ const PTBRMessageData kPTBRMessages_4000_FFFF[] = {
     },
     {
         0x5023,
-        R"PTBR(Infelizmente, eu já não posso mais cumprir o meu<NEWLINE>dever de sheikah: proteger Hyrule e a família real.<END>)PTBR",
+        R"PTBR(Infelizmente, eu já não posso mais cumprir o meu<NEWLINE>dever de sheikah: proteger Hyrule e a família real.<BOX_BREAK>Eu juro que selarei Ganondorf, o Rei Demoníaco,<NEWLINE>e evitarei que tamanha tragédia se repita.<NEWLINE>Link, escute.<END>)PTBR",
         0x52
     },
     {
@@ -1088,12 +1088,12 @@ const PTBRMessageData kPTBRMessages_4000_FFFF[] = {
     },
     {
         0x5025,
-        R"PTBR(Infelizmente, eu já não posso mais cumprir o meu<NEWLINE>dever de sheikah: proteger Hyrule e a família real.<BOX_BREAK>Há sete anos, quando Ganondorf<NEWLINE>invadiu o Castelo de Hyrule...<BOX_BREAK><UNSKIPPABLE>Ele queria uma das chaves<NEWLINE>do Reino Sagrado...<NEWLINE>O tesouro secreto da Família<NEWLINE>Real... A Ocarina do Tempo!<BOX_BREAK><UNSKIPPABLE>Meu dever era manter Zelda<NEWLINE>fora do alcance de Ganondorf.<BOX_BREAK>Corajoso Link, muito bem. Você derrotou a fera<NEWLINE>no Templo das Sombras. Obrigada.<BOX_BREAK>Você superou muitos desafios para chegar aqui.<NEWLINE>A sua força é clara.<END>)PTBR",
+        R"PTBR(Infelizmente, eu já não posso mais cumprir o meu<NEWLINE>dever de sheikah: proteger Hyrule e a família real.<BOX_BREAK>Há sete anos, quando Ganondorf<NEWLINE>invadiu o Castelo de Hyrule...<BOX_BREAK><UNSKIPPABLE>Ele queria uma das chaves<NEWLINE>do Reino Sagrado...<NEWLINE>O tesouro secreto da Família<NEWLINE>Real... A Ocarina do Tempo!<BOX_BREAK><UNSKIPPABLE>Meu dever era manter Zelda<NEWLINE>fora do alcance de Ganondorf.<BOX_BREAK>Corajoso Link, muito bem. Você derrotou a fera<NEWLINE>no Templo das Sombras. Obrigada.<BOX_BREAK>Você superou muitos desafios para chegar aqui.<NEWLINE>A sua força é clara.<BOX_BREAK><NEWLINE>Sim, sou uma sábia.<BOX_BREAK>E acima de tudo, juro que repararei meus erros.<NEWLINE><BOX_BREAK>A culpa foi minha. Não o vigiei como devia.<NEWLINE>Não o detive quando foi preciso.<NEWLINE>E eu jamais... conseguirei me perdoar.<END>)PTBR",
         0x03
     },
     {
         0x5026,
-        R"PTBR(Por isso, eu te peço,<NEWLINE>proteja Sua Alteza no meu lugar.<BOX_BREAK>Então, agora...<NEWLINE>para enfrentar o Rei Demoníaco, leve consigo<NEWLINE>este símbolo da minha determinação!<END>)PTBR",
+        R"PTBR(Por isso, eu te peço,<NEWLINE>proteja Sua Alteza no meu lugar.<BOX_BREAK>Então, agora...<NEWLINE>para enfrentar o Rei Demoníaco, leve consigo<NEWLINE>este símbolo da minha determinação!<BOX_BREAK>Posso ver nos seus olhos...<END>)PTBR",
         0x03
     },
     {
@@ -1118,12 +1118,12 @@ const PTBRMessageData kPTBRMessages_4000_FFFF[] = {
     },
     {
         0x502B,
-        R"PTBR(Não se preocupem, ela está bem.<END>)PTBR",
+        R"PTBR(Não se preocupem, ela está bem.<BOX_BREAK>E a princesa Zelda? Onde ela está?<END>)PTBR",
         0x03
     },
     {
         0x502C,
-        R"PTBR(Sua Alteza logo se revelará a vocês,<NEWLINE>e tudo ficará mais claro.<BOX_BREAK>Com isso, os sábios finalmente poderão deter<NEWLINE>o Rei Demoníaco e devolver a paz a Hyrule.<END>)PTBR",
+        R"PTBR(Sua Alteza logo se revelará a vocês,<NEWLINE>e tudo ficará mais claro.<BOX_BREAK>Com isso, os sábios finalmente poderão deter<NEWLINE>o Rei Demoníaco e devolver a paz a Hyrule.<BOX_BREAK>Até esse dia chegar, ficarei aqui me preparando.<NEWLINE>Então você... é a sábia das sombras?<END>)PTBR",
         0x03
     },
     {
@@ -1828,7 +1828,7 @@ const PTBRMessageData kPTBRMessages_4000_FFFF[] = {
     },
     {
         0x6029,
-        R"PTBR(Parece que temos visita, querida Koume...<END>)PTBR",
+        R"PTBR(Parece que temos visita, querida Koume...<BOX_BREAK><NEWLINE><END>)PTBR",
         0x01
     },
     {
@@ -1863,32 +1863,32 @@ const PTBRMessageData kPTBRMessages_4000_FFFF[] = {
     },
     {
         0x6030,
-        R"PTBR(O que aconteceu?<END>)PTBR",
+        R"PTBR(O que aconteceu?<BOX_BREAK><NEWLINE><END>)PTBR",
         0x03
     },
     {
         0x6031,
-        R"PTBR(Ora, ora...<NEWLINE>Parece que a nossa amiga voltou a si,<NEWLINE>querida Koume.<END>)PTBR",
+        R"PTBR(Ora, ora...<NEWLINE>Parece que a nossa amiga voltou a si,<NEWLINE>querida Koume.<BOX_BREAK>Na-Nabooru?!<NEWLINE><BOX_BREAK>Veja só...<NEWLINE><END>)PTBR",
         0x03
     },
     {
         0x6032,
-        R"PTBR(É bem possível,<NEWLINE>não podemos perder essa chance.<NEWLINE>Há gerudos que admiram essa jovem.<NEWLINE>Ela ainda nos pode ser útil.<NEWLINE>Tem razão, Kotake querida. Mas, desta vez,<NEWLINE>vamos garantir que ela não consiga se libertar!<END>)PTBR",
+        R"PTBR(É bem possível,<NEWLINE>não podemos perder essa chance.<NEWLINE>Há gerudos que admiram essa jovem.<NEWLINE>Ela ainda nos pode ser útil.<NEWLINE>Tem razão, Kotake querida. Mas, desta vez,<NEWLINE>vamos garantir que ela não consiga se libertar!<BOX_BREAK>Talvez ela precise de uma lavagem cerebral<NEWLINE>mais intensa, Kotake querida.<END>)PTBR",
         0x03
     },
     {
         0x6033,
-        R"PTBR(Nabooru, cuidado!<NEWLINE>Não se meta, rapazote!<NEWLINE>Você não escapará!<NEWLINE>Ora... Você quer resgatá-la, rapazote?<END>)PTBR",
+        R"PTBR(Nabooru, cuidado!<NEWLINE>Não se meta, rapazote!<NEWLINE>Você não escapará!<NEWLINE>Ora... Você quer resgatá-la, rapazote?<BOX_BREAK><NEWLINE><END>)PTBR",
         0x03
     },
     {
         0x6034,
-        R"PTBR(Então é só passar por esta porta.<NEWLINE>Essa não...<END>)PTBR",
+        R"PTBR(Então é só passar por esta porta.<NEWLINE>Essa não...<BOX_BREAK><NEWLINE><END>)PTBR",
         0x03
     },
     {
         0x6035,
-        R"PTBR(Estarei sempre em dívida com você.<NEWLINE>Muito obrigada.<BOX_BREAK>Hahaha! Olha só pra você!Aquele pirralho de sete anos atrás<NEWLINE>virou um grande espadachim!<END>)PTBR",
+        R"PTBR(Estarei sempre em dívida com você.<NEWLINE>Muito obrigada.<BOX_BREAK>Hahaha! Olha só pra você!Aquele pirralho de sete anos atrás<NEWLINE>virou um grande espadachim!<BOX_BREAK>Oi, moleque!<NEWLINE>Não, devo chamá-lo de Link.<NEWLINE>Sete anos...<END>)PTBR",
         0x03
     },
     {
@@ -1908,12 +1908,12 @@ const PTBRMessageData kPTBRMessages_4000_FFFF[] = {
     },
     {
         0x6039,
-        R"PTBR(Como eu pude ser tão descuidada?<NEWLINE>Caí direitinho na armadilha delas.<BOX_BREAK>Como eu pude ser tão descuidada?<NEWLINE>Caí direitinho na armadilha delas.<BOX_BREAK>Aquelas bruxas velhas<NEWLINE>me fizeram de marionete do Ganondorf.<BOX_BREAK>Depois de tudo, eu me tornei a sábia do espírito!<BOX_BREAK>Sabe o que isso significa?<NEWLINE>Eu posso ajudá-lo a derrotar o Ganondorf!<BOX_BREAK>Maldito Ganondorf. Ele não faz ideia<NEWLINE>do que é me ter como inimiga!<END>)PTBR",
+        R"PTBR(Como eu pude ser tão descuidada?<NEWLINE>Caí direitinho na armadilha delas.<BOX_BREAK>Como eu pude ser tão descuidada?<NEWLINE>Caí direitinho na armadilha delas.<BOX_BREAK>Aquelas bruxas velhas<NEWLINE>me fizeram de marionete do Ganondorf.<BOX_BREAK>Depois de tudo, eu me tornei a sábia do espírito!<BOX_BREAK>Sabe o que isso significa?<NEWLINE>Eu posso ajudá-lo a derrotar o Ganondorf!<BOX_BREAK>Maldito Ganondorf. Ele não faz ideia<NEWLINE>do que é me ter como inimiga!<BOX_BREAK>Quanta humilhação. Se não fosse pelo Rauru,<NEWLINE>sabe-se lá onde eu estaria agora...<NEWLINE>Mas a vida é uma caixinha de surpresas...<BOX_BREAK>Aquele homem...<END>)PTBR",
         0x03
     },
     {
         0x603A,
-        R"PTBR(Ô moleq...<BOX_BREAK>Não... Herói do Tempo.<BOX_BREAK>Acho que não vou conseguir cumprir<NEWLINE>a minha promessa. A que fiz há sete anos...<NEWLINE>Mas não vou te deixar na mão!<BOX_BREAK>Faça bom proveito!<END>)PTBR",
+        R"PTBR(oi moleque nao devo chama lo de link<BOX_BREAK>Não... Herói do Tempo.<BOX_BREAK>Acho que não vou conseguir cumprir<NEWLINE>a minha promessa. A que fiz há sete anos...<NEWLINE>Mas não vou te deixar na mão!<BOX_BREAK>Faça bom proveito!<END>)PTBR",
         0x03
     },
     {
@@ -2368,7 +2368,7 @@ const PTBRMessageData kPTBRMessages_4000_FFFF[] = {
     },
     {
         0x7005,
-        R"PTBR(Por isso, é proibido tocar<NEWLINE>a Triforça com leviandade.<NEWLINE>Perdão.<BOX_BREAK>Eu ainda nem sequer me apresentei.<END>)PTBR",
+        R"PTBR(Por isso, é proibido tocar<NEWLINE>a Triforça com leviandade.<NEWLINE>Perdão.<BOX_BREAK>Eu ainda nem sequer me apresentei.<BOX_BREAK>Seu poder deve permanecer adormecido<NEWLINE>no Domínio Sagrado.<END>)PTBR",
         0x01
     },
     {
@@ -2763,7 +2763,7 @@ const PTBRMessageData kPTBRMessages_4000_FFFF[] = {
     },
     {
         0x7054,
-        R"PTBR(Link, parece que voltamos ao Templo do Tempo.<NEWLINE>Será mesmo que se passaram sete anos?<NEWLINE>O que foi?<BOX_BREAK>Ó escolhido...<NEWLINE>Link, abra os olhos.<BOX_BREAK>Bom, é melhor sairmos daqui.<NEWLINE>Como será que estão as coisas lá fora?<NEWLINE>Q-Quem é?<NEWLINE>A hora finalmente chegou.<END>)PTBR",
+        R"PTBR(Link, parece que voltamos ao Templo do Tempo.<NEWLINE>Será mesmo que se passaram sete anos?<NEWLINE>O que foi?<BOX_BREAK>Ó escolhido...<NEWLINE>Link, abra os olhos.<BOX_BREAK>Bom, é melhor sairmos daqui.<NEWLINE>Como será que estão as coisas lá fora?<NEWLINE>Q-Quem é?<NEWLINE>A hora finalmente chegou.<BOX_BREAK><NEWLINE><END>)PTBR",
         0x03
     },
     {
@@ -2898,7 +2898,7 @@ const PTBRMessageData kPTBRMessages_4000_FFFF[] = {
     },
     {
         0x706F,
-        R"PTBR(Link, obrigada...<BOX_BREAK>O Ganondorf foi selado no Domínio Maligno.<BOX_BREAK>Agora, este mundo finalmente testemunhará<NEWLINE>uma era de paz.<END>)PTBR",
+        R"PTBR(Link, obrigada...<BOX_BREAK>O Ganondorf foi selado no Domínio Maligno.<BOX_BREAK>Agora, este mundo finalmente testemunhará<NEWLINE>uma era de paz.<BOX_BREAK>Link...<NEWLINE>Navi...<END>)PTBR",
         0x03
     },
     {
@@ -3068,7 +3068,7 @@ const PTBRMessageData kPTBRMessages_4000_FFFF[] = {
     },
     {
         0x7091,
-        R"PTBR(Todas as tragédias que nos acometeram<NEWLINE>até hoje foram minha culpa.<BOX_BREAK>Eu deveria saber que abrir o caminho para<NEWLINE>o Domínio Sagrado teria consequências...<BOX_BREAK>e o resultado foi a desgraça de tanta, tanta gente.<BOX_BREAK>Devo corrigir os meus erros,<NEWLINE>ainda que somente em parte.<BOX_BREAK><UNSKIPPABLE>Devolva a Espada Mestra ao seu<NEWLINE>repouso e feche a Porta do Tempo...<END>)PTBR",
+        R"PTBR(Todas as tragédias que nos acometeram<NEWLINE>até hoje foram minha culpa.<BOX_BREAK>Eu deveria saber que abrir o caminho para<NEWLINE>o Domínio Sagrado teria consequências...<BOX_BREAK>e o resultado foi a desgraça de tanta, tanta gente.<BOX_BREAK>Devo corrigir os meus erros,<NEWLINE>ainda que somente em parte.<BOX_BREAK><UNSKIPPABLE>Devolva a Espada Mestra ao seu<NEWLINE>repouso e feche a Porta do Tempo...<BOX_BREAK>Além... do tempo que você perdeu.<NEWLINE>Perdoe-me, Link.<END>)PTBR",
         0x03
     },
     {
@@ -3088,7 +3088,7 @@ const PTBRMessageData kPTBRMessages_4000_FFFF[] = {
     },
     {
         0x7095,
-        R"PTBR(Agora, volte para casa, Link.<NEWLINE>Vá e recupere o seu tempo perdido.<BOX_BREAK>como deveria ser.<END>)PTBR",
+        R"PTBR(Agora, volte para casa, Link.<NEWLINE>Vá e recupere o seu tempo perdido.<BOX_BREAK>como deveria ser.<BOX_BREAK>Volte para o seu lar...<NEWLINE><END>)PTBR",
         0x03
     },
     {
@@ -3493,12 +3493,12 @@ const PTBRMessageData kPTBRMessages_4000_FFFF[] = {
     },
     {
         0x70E6,
-        R"PTBR(Link, olha...<END>)PTBR",
+        R"PTBR(Link, olha...<BOX_BREAK>A Grande Árvore Deko já me falou dela.<END>)PTBR",
         0x03
     },
     {
         0x70E7,
-        R"PTBR(a espada lendária que subjuga o mal...<END>)PTBR",
+        R"PTBR(a espada lendária que subjuga o mal...<BOX_BREAK>Essa só pode ser...<END>)PTBR",
         0x03
     },
     {

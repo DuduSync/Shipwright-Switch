@@ -838,7 +838,7 @@ const PTBRMessageData kPTBRMessages_2000_3FFF[] = {
     },
     {
         0x3007,
-        R"PTBR(Se continuar assim, eu vou pirar!<NEWLINE>Entendeu?! É por isso que eu não tenho tempo<NEWLINE>pra lidar com pirralhos insuportáveis!<NEWLINE>Agora, deem o fora daqui!<NEWLINE>Isso! Isso! Iiisso!<NEWLINE>A batida...<NEWLINE>A batida tá fervendo!<END>)PTBR",
+        R"PTBR(Se continuar assim, eu vou pirar!<NEWLINE>Entendeu?! É por isso que eu não tenho tempo<NEWLINE>pra lidar com pirralhos insuportáveis!<NEWLINE>Agora, deem o fora daqui!<NEWLINE>Isso! Isso! Iiisso!<NEWLINE>A batida...<NEWLINE>A batida tá fervendo!<BOX_BREAK>E tá muito difícil colher<NEWLINE>as nossas amadas flores-bomba!<NEWLINE>Pra completar, tá todo mundo faminto,<NEWLINE>sem pedra pra comer!<BOX_BREAK>Tu tem noção de como tudo isso é frustrante?!<END>)PTBR",
         0x03
     },
     {
@@ -963,7 +963,7 @@ const PTBRMessageData kPTBRMessages_2000_3FFF[] = {
     },
     {
         0x3020,
-        R"PTBR(Isso!<NEWLINE>Isso! Isso! Iiisso!<NEWLINE>A batida...<NEWLINE>A batida tá fervendo!<NEWLINE>Que falta de respeito com o grande Darunia!<NEWLINE>Eu é que não vou perder meu tempo<NEWLINE>com um pirralho como tu.<NEWLINE>Bora, chispa logo daqui!<BOX_BREAK>Queria ouvir uma melodia...<NEWLINE>Algo... Humm... De fora<NEWLINE>das montanhas... Algo...<NEWLINE>Verde... Natural...<BOX_BREAK>Qual é a de Hyrule?<NEWLINE>Eles acham que um fedelho desses vai ajudar?<NEWLINE>Ei, espera aí!<NEWLINE>Você nem nos deixou explicar nada!<END>)PTBR",
+        R"PTBR(Isso!<NEWLINE>Isso! Isso! Iiisso!<NEWLINE>A batida...<NEWLINE>A batida tá fervendo!<NEWLINE>Que falta de respeito com o grande Darunia!<NEWLINE>Eu é que não vou perder meu tempo<NEWLINE>com um pirralho como tu.<NEWLINE>Bora, chispa logo daqui!<BOX_BREAK>Queria ouvir uma melodia...<NEWLINE>Algo... Humm... De fora<NEWLINE>das montanhas... Algo...<NEWLINE>Verde... Natural...<BOX_BREAK>Qual é a de Hyrule?<NEWLINE>Eles acham que um fedelho desses vai ajudar?<NEWLINE>Ei, espera aí!<NEWLINE>Você nem nos deixou explicar nada!<BOX_BREAK>Opa, opa, opa!<NEWLINE>Eu ouvi a musiquinha da família real e achei que<NEWLINE>eles tinham mandado alguém pra resolver.<BOX_BREAK>Mas tu não passa de um molequinho mirrado!<NEWLINE><BOX_BREAK>Por que esse mau humor todo, hein?!<NEWLINE>Tu quer saber por quêêê?!<BOX_BREAK>Porque a fera ancestral<NEWLINE>na Caverna dos Dodongos tá maluca!<NEWLINE><BOX_BREAK><NEWLINE><BOX_BREAK><NEWLINE><BOX_BREAK><NEWLINE><BOX_BREAK><NEWLINE><BOX_BREAK><NEWLINE><BOX_BREAK><NEWLINE><BOX_BREAK><NEWLINE><BOX_BREAK><NEWLINE><END>)PTBR",
         0x03
     },
     {
@@ -1103,7 +1103,7 @@ const PTBRMessageData kPTBRMessages_2000_3FFF[] = {
     },
     {
         0x303C,
-        R"PTBR(Valeu mesmo, irmão!<NEWLINE>Eu te agradeço em nome dos gorons.<BOX_BREAK>Nem acredito que tu acabou com o Volvágnia...<NEWLINE>Foi de molequinho a homão num piscar de olhos!<END>)PTBR",
+        R"PTBR(Valeu mesmo, irmão!<NEWLINE>Eu te agradeço em nome dos gorons.<BOX_BREAK>Nem acredito que tu acabou com o Volvágnia...<NEWLINE>Foi de molequinho a homão num piscar de olhos!<BOX_BREAK>Eu não queria falar,<NEWLINE>mas se o Rauru não tivesse me tirado de lá,a essa hora eu já tinha virado cascalho!<NEWLINE>Darunia, que bom que você está bem.<END>)PTBR",
         0x03
     },
     {
@@ -1148,7 +1148,7 @@ const PTBRMessageData kPTBRMessages_2000_3FFF[] = {
     },
     {
         0x3045,
-        R"PTBR(E pensar que eu, Darunia,<NEWLINE>ia virar o sábio do fogo.<BOX_BREAK>Essa é pra rir, né?<NEWLINE>Diz aí, irmão!<NEWLINE>Bom, o destino falou mais alto.<BOX_BREAK>Nada vai me fazer mais feliz!<END>)PTBR",
+        R"PTBR(E pensar que eu, Darunia,<NEWLINE>ia virar o sábio do fogo.<BOX_BREAK>Essa é pra rir, né?<NEWLINE>Diz aí, irmão!<NEWLINE>Bom, o destino falou mais alto.<BOX_BREAK>Nada vai me fazer mais feliz!<BOX_BREAK><NEWLINE>Fiquei surpreso quando o Rauru me contou...<BOX_BREAK>Mas agora consigo entender<NEWLINE>o impulso que tive de entrar no templo!<NEWLINE>Meu irmão...<END>)PTBR",
         0x03
     },
     {
